@@ -6,21 +6,22 @@
 2. different number of parameters, different order of parameters.
 3. Return type is not considered in method overloading; it means we never
     decide method overloading with return type
+## Example-1
 ```
 class AdditionCalc
 {
 
-	int add(int n1, int n2)
+	int add(int n1, int n2) //Method Overloading
 	{
 		return n1+n2;
 	}
 	
-	int add(int n1, int n2, int n3)
+	int add(int n1, int n2, int n3) //Method Overloading
 	{
 		return n1+n2+n3;
 	}
 	
-	double add(int n1, double n2)
+	double add(int n1, double n2) //Method Overloading
 	{
 		return n1+n2;
 	}
@@ -28,22 +29,22 @@ class AdditionCalc
 //	{
 //		double res= n1+n2;
 //	}
-	double add(double n1, int n2)
+	double add(double n1, int n2) //Method Overloading
 	{
 		return n1+n2;
 	}
 	
-	double add(double n1, double n2)
+	double add(double n1, double n2) //Method Overloading
 	{
 		return n1+n2;
 	}
 
-	double add(int n1, double n2, double n3)
+	double add(int n1, double n2, double n3) //Method Overloading
 	{
 		return n1+n2+n3;
 	}
 	
-	double add(double n1, double n2, double n3)
+	double add(double n1, double n2, double n3) //Method Overloading
 	{
 		return n1+n2+n3;
 	}
@@ -53,7 +54,7 @@ class AdditionCalc
 public class LaunchMo 
 {
 
-	public static void main(String[] args) 
+	public static void main(String[] args) //Main Method
 	{
 		int x=10;
 		int y=20;
@@ -62,7 +63,7 @@ public class LaunchMo
 		double b=20.5;
 		double c=30.5;
 		
-		AdditionCalc cal=new AdditionCalc();
+		AdditionCalc cal=new AdditionCalc();//Creation Of Object/Instantiation
 		
 //		int res=cal.add(x, y);
 //		System.out.println(res);
