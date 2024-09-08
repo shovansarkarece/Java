@@ -135,7 +135,8 @@ class Mul{
 public class Launch {
     public static void main(String[] args){
         Mul m = new Mul();
-        System.out.println(m.mul(4,4));//It will throw an error because that type of arguments we are are passing which is not able to receive these parameter
+        System.out.println(m.mul(4,4));//It will throw an error because that type of arguments we are are passing
+                                       //which is not able to receive these parameter
         System.out.println(m.mul(4,4,4));
         System.out.println(m.mul(44,44,44));
     }
