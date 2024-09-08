@@ -144,4 +144,30 @@ public class Launch {
 ```
 ### Output
 ![image](https://github.com/user-attachments/assets/672686bd-368b-407e-95ec-99db3b58e494)
+## Example-3(Main Method Overloading possible)
+```
+public class LaunchMo3 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("main method with String of args[]");
+		main(44);//main method with int of arg
+		main("Rohan", 4);//main method with int and String of arg
+	}
+	public static void main(int arg) //Main Method Overloading
+	{
+		System.out.println("main method with int of arg");
+	}
+	public static void main(int[] arg) //Main Method Overloading with int[] argument
+	{
+		System.out.println("main method with int[] of arg");
+	}
+	public static void main(String name, int age) //Main Method Overloading with String and int argument
+	{
+		System.out.println("main method with int and String of arg");
+	}
+}
+```
+### Output
+![image](https://github.com/user-attachments/assets/9f018202-30bc-4ec8-be9b-274a6373e4b4)
 
