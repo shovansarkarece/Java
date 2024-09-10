@@ -161,6 +161,76 @@ public class LaunchEmp
 
 }
 ```
+### Example-4 with shadowing problem(Local variable and instance variable are same)
+```
+class Learner
+{
+	private int id;
+	private String name;
+	private String city;
+//Whenever there is a name conflict within a setter between instance variable and local variable,this problem is called a shadowing problem
+//Compiler will confuse that what will assign because local variable and instance variable are same.Then compiler will confuse and compiler
+//will decide not to assign anything and compiler will go to the ambiquity mode.To solve this problem we always recommend to use this 
+//keyword to refer the object.
+     int getId() 
+	{
+		return id;
+	}
+	 void setId(int id) 
+	{
+	    id=id;
+	}
+     String getName()
+	{
+		return name;
+	}
+     void setName(String name) 
+	{
+	    name=name;
+	}
+	 String getCity()
+	{
+		return city;
+	}
+     void setCity(String city)
+	{
+	    city=city;
+	}
+}
+public class LaunchLearner 
+{
+	public static void main(String[] args) 
+	{
+		Learner learner=new Learner();
+		learner.setId(1);
+		learner.setName("Rohan");
+		learner.setCity("bengaluru");
+		
+		int id=learner.getId();
+		System.out.println("Id is : "+ id);
+		
+		System.out.println(learner.getName());
+		System.out.println(learner.getCity());
+		
+		System.out.println("********************************");
+		
+		Learner learner2=new Learner();
+		learner2.setId(2);
+		learner2.setName("Rohit");
+		learner2.setCity("mumbai");
+		
+		
+		int id2=learner2.getId();
+		System.out.println("Id is : "+ id2);
+		
+		System.out.println(learner2.getName());
+		System.out.println(learner2.getCity());
+	}
+
+}
+```
+![image](https://github.com/user-attachments/assets/2f89cc4d-9c1b-4d9c-8534-520f49dc2836)
+
 ### Example-4
 ```
 class Learner
