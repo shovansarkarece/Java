@@ -48,3 +48,4 @@ public class LaunchTernary
 
 }
 ```
+#### Output: Greater num is 44
