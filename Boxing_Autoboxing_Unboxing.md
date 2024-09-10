@@ -39,6 +39,7 @@ public class LaunchWrapper
 	public static void main(String[] args) 
 	{
                 Integer n3=Integer.valueOf(44);
+                int n4=n3;//auto unboxing
 		int n5=n3.intValue(); //unboxing
                 System.out.println(n5);
 }
