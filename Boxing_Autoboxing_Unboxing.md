@@ -25,6 +25,7 @@ public class LaunchWrapper
 	{
                 int n1=14;
 		Integer n2=n1;//auto boxing
+                System.out.println(n2);
 }
 }
 ```
@@ -39,6 +40,7 @@ public class LaunchWrapper
 	{
                 Integer n3=Integer.valueOf(44);
 		int n5=n3.intValue(); //unboxing
+                System.out.println(n5);
 }
 }
 ```
