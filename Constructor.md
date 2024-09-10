@@ -127,7 +127,7 @@ public class LaunchConstructor3
 ![image](https://github.com/user-attachments/assets/3c887c1d-ae0f-4bca-9f25-269380309042)
 # Constructor With Setter
 > If we perform setter injection and constructor injection then at the end of the day setter injection 
-> will be performed means new data will be getting as an output.New Data will be there
+> will be performed means new data will be getting as an output.New Data will be there means what is later being added.
 ```
 class Finishers
 {
