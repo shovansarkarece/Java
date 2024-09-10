@@ -233,6 +233,8 @@ public class LaunchLearner
 
 ### Example-5(Shadowing Problem resolved using this() keyword)
 > this() is a keyword that holds the currently running object's address. It refers to the currently running object's address.
+> ![image](https://github.com/user-attachments/assets/3ec1b5c0-fdbf-4975-bcf0-85e3fe4cb191)
+
 ```
 class Learner
 {
