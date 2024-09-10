@@ -25,7 +25,9 @@ public class LaunchWrapper
 	{
                 int n1=14;
 		Integer n2=n1;//auto boxing
+                Integer x=Integer.valueOf(n1);  //boxing
                 System.out.println(n2);
+                System.out.println(x);
 }
 }
 ```
