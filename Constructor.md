@@ -1,3 +1,6 @@
+# Constructor
+![image](https://github.com/user-attachments/assets/c5a5185c-5aec-49ad-9b56-c05ca19635d3)
+
 ```
 class Dog
 {
