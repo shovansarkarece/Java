@@ -168,10 +168,10 @@ class Learner
 	private int id;
 	private String name;
 	private String city;
-//Whenever there is a name conflict within a setter between instance variable and local variable,this problem is called a shadowing problem
-//Compiler will confuse that what will assign because local variable and instance variable are same.Then compiler will confuse and compiler
-//will decide not to assign anything and compiler will go to the ambiquity mode.To solve this problem we always recommend to use this 
-//keyword to refer the object.
+//Whenever there is a name conflict within a setter between instance variable and local variable,this problem is called a shadowing
+//problem.Compiler will confuse that what will assign because local variable and instance variable are same.Then compiler will
+//confuse and compiler will decide not to assign anything and compiler will go to the ambiquity mode.To solve this problem we
+//always recommend to use this keyword to refer the object.
      int getId() 
 	{
 		return id;
@@ -231,7 +231,7 @@ public class LaunchLearner
 ```
 ![image](https://github.com/user-attachments/assets/2f89cc4d-9c1b-4d9c-8534-520f49dc2836)
 
-### Example-4
+### Example-5(Shadowing Problem resolved using this() keyword)
 ```
 class Learner
 {
