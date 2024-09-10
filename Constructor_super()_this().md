@@ -129,8 +129,9 @@ public class LaunchConstructor3
 > If we perform setter injection and constructor injection then at the end of the day setter injection 
 > will be performed means new data will be getting as an output.New Data will be there means what is later being added.
 #### Super keyword 
-- In Java, super keyword is used to refer to immediate parent class of a child class. 
-- In other words, super keyword is used by a subclass whenever it need to refer to its immediate super class. 
+- In Java, super keyword is used to refer to the immediate parent class of a child class. 
+- In other words, super keyword is used by a subclass whenever it need to refer to its immediate super class.
+- Behind the scene, there will be always a super() method may be hardcoded or not but super () method will be there.
 ##### Note
 - When calling the parent class constructor from the child class using super keyword, 
 - super keyword should always be the first line in the method/constructor of the child class. 
@@ -201,3 +202,5 @@ public class LaunchSetterConst
 
 }
 ```
+## Can we use both this () and super () in a Constructor? 
+> NO, because both super () and this () must be the first statement inside a constructor. Hence, we cannot use them together. 
