@@ -31,3 +31,14 @@ public class LaunchWrapper
 # UnBoxing 
 - Converting wrapper class object back to its corrsponding primitive data type
 - Automatically Converting wrapper class object back to its corrsponding primitive data type by java compiler
+```
+import java.util.ArrayList;
+public class LaunchWrapper 
+{
+	public static void main(String[] args) 
+	{
+                Integer n3=Integer.valueOf(44);
+		int n5=n3.intValue(); //unboxing
+}
+}
+```
