@@ -128,6 +128,9 @@ public class LaunchConstructor3
 # Constructor With Setter
 > If we perform setter injection and constructor injection then at the end of the day setter injection 
 > will be performed means new data will be getting as an output.New Data will be there means what is later being added.
+#### Super keyword 
+- In Java, super keyword is used to refer to immediate parent class of a child class. 
+- In other words, super keyword is used by a subclass whenever it need to refer to its immediate super class. 
 ```
 class Finishers
 {
