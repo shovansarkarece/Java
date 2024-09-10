@@ -1,4 +1,6 @@
 # Ternary Operator
+![image](https://github.com/user-attachments/assets/f83e925f-f226-4ac7-b2e3-72bf99423011)
+
 ```
 public class LaunchTernary 
 {
