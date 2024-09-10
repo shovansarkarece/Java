@@ -131,6 +131,9 @@ public class LaunchConstructor3
 #### Super keyword 
 - In Java, super keyword is used to refer to immediate parent class of a child class. 
 - In other words, super keyword is used by a subclass whenever it need to refer to its immediate super class. 
+##### Note
+-- When calling the parent class constructor from the child class using super keyword, 
+-- super keyword should always be the first line in the method/constructor of the child class. 
 ```
 class Finishers
 {
