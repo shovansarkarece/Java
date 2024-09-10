@@ -41,11 +41,7 @@ public class LaunchTernary
 		
 		int res=(num1>num2)? (num1>num3 ? num1: num3) : (num2>num3? num2: num3);
 		System.out.println("Greater num is "+ res);
-		
-		
-
 	}
-
 }
 ```
 #### Output: Greater num is 44
