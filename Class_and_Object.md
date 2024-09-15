@@ -6,3 +6,28 @@
 ## Difference Between Clas and Object
 ![image](https://github.com/user-attachments/assets/0e126833-f0b0-4047-8ef5-6d27d7b7926d)
 ![image](https://github.com/user-attachments/assets/301b0fc6-65cb-41f3-ad15-818a9458fac9)
+### Example Of Class and Object
+```
+class Start {
+    public static void main(String[] args) {
+
+        System.out.println("Printing something");
+        // ek object create karne ki jarurat pad gyi
+        Pen p1 = new Pen();
+        Pen p2 = new Pen();
+        p1.model = "3 Rupya wala 1";
+        p2.model = "5 Rupya  wala 1";
+
+        p1.color = "black";
+        p2.color = "blue";
+
+        System.out.println(p1.model);
+        System.out.println(p2.model);
+
+        p1.write();
+
+        p2.write();
+
+    }
+}
+```
