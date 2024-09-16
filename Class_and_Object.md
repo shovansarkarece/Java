@@ -61,8 +61,8 @@ public class Demo {
         System.out.println("we are working here");
         // ek samose ki jarurat padh gyi
         // want object of samosa
-        Samosa s1 = new Samosa();
-        Samosa s2 = new Samosa();
+        Samosa s1 = new Samosa();//reference variable s1
+        Samosa s2 = new Samosa();//reference variable s2
 
         s1.price = 3;
         s1.model = "Meetha Samosa";
