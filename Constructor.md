@@ -48,7 +48,7 @@ public class JalebiDemo {
        var2.displayAll();
     }
  }
-//Public Class Demo.java
+//JalebiDemo Class With Another Example
 public class JalebiDemo {
     public static void main(String[] args) {
 
