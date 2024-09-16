@@ -30,4 +30,82 @@ class Start {
 
     }
 }
+//Pen Class
+class Pen {
+    // class body
+    // properties/variables[instance]/data members
+    String color;
+    double price;
+    String model;
+    // ......
+
+    // behaviors/methods/member methods
+    public void write() {
+        System.out.println(model + " is writing in " + color + " Color");
+    }
+
+    // .....
+}
+```
+# Variables and Methods in Classes
+- 1.Classes are only blueprint  for objects
+- 2.Variables are called data members/properties. (basically separate copy are created for 
+each object)[talking about instance variable here]
+- 3.Methods are called member methods/behaviors/functionality. (each methods get executed in object spaces ).
+[talking about instance/non-static methods]
+- 4.Methods: set of instruction return for doing specific task.(jo ham pahle padh chuke hai.)
+```
+public class Demo {
+    public static void main(String[] args) {
+
+        System.out.println("we are working here");
+        // ek samose ki jarurat padh gyi
+        // want object of samosa
+        Samosa s1 = new Samosa();
+        Samosa s2 = new Samosa();
+
+        s1.price = 3;
+        s1.model = "Meetha Samosa";
+        s1.shape = "triangular";
+        s1.color = "Yellow";
+
+        s2.price = 10;
+        s2.model = "Mix Samosa";
+        s2.shape = "rectangular";
+        s2.color = "Reddish";
+
+        s1.showColor();
+        s2.showColor();
+        int price = s1.getPrice();
+        int price1 = s2.getPrice();
+
+        System.out.println("total price " + (price + price1));
+
+    }
+}
+//Samosa Class
+public class Samosa {
+
+    // properties/variables/data members
+    // instance variables/non-static variables
+    int price;
+    String model;
+    String color;
+    String shape;
+
+    // behaviors/member methods
+    // non-static methods/instance methods
+
+    public void showColor() 
+    {
+
+        System.out.println("Color is " + color);
+    }
+
+    public int getPrice() {
+        System.out.println("Price is : " + price);
+        return price;
+    }
+
+}
 ```
