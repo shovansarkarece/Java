@@ -19,3 +19,15 @@ At least one of the above criteria must be different for overloading.
 ## 3. Method Overloading
 ### a. Definition
 Method overloading happens when we define more than one method with the same name but with a different argument list.
+# Conditions for Method Overloading
+
+1. **Arguments must be different** for overloading.
+2. Overloading can differ by:
+   - **Number of parameters**
+   - **Type of parameters**
+   - **Order of parameters**
+3. At least one of the above criteria must be different for overloading.
+4. The **name of the method must be the same**.
+5. The **return type can be different**.
+6. Methods must be defined in the **same class**.
+
