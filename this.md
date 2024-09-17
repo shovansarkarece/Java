@@ -120,3 +120,35 @@ public class Pepsi {
 }
 ```
 ![image](https://github.com/user-attachments/assets/54e4e59f-c32c-4767-b467-ef683bab8ec9)
+# Example-3 Calling Current Class Constructor
+```
+public class Pepsi {
+    // instance variable
+    double price = 30;
+    String brand = "B1";
+    public Pepsi() {
+        // constructor calling--it must be the first line
+        this(30.98, "Cocacola");
+
+        System.out.println("Zero Arg constructor");
+        System.out.println("Creating object");
+        System.out.println("Wow its amazing wor");
+    }
+    public Pepsi(double price, String brand) {
+        System.out.println("Two arg constructor");
+        this.price = price;
+        this.brand = brand;
+    }
+      public void display() {
+        System.out.println("Price : " + price);
+        System.out.println("Brand : " + this.brand);
+      }
+     public static void main(String[] args) {
+         Pepsi pepsi1 = new Pepsi();
+         System.out.println("Object Created");
+         pepsi1.display();
+         Pepsi pepsi2 = new Pepsi(90.23, "MakeItDrink");
+         pepsi2.display();
+     }
+}
+```
