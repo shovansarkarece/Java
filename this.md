@@ -119,6 +119,7 @@ public class Pepsi {
      }
 }
 ```
+# Output
 ![image](https://github.com/user-attachments/assets/54e4e59f-c32c-4767-b467-ef683bab8ec9)
 # Example-3 Calling Current Class Constructor
 ```
@@ -152,4 +153,5 @@ public class Pepsi {
      }
 }
 ```
+# Output
 ![image](https://github.com/user-attachments/assets/05e0a04e-dcb8-4319-a2de-b56353c264ad)
