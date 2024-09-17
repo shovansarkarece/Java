@@ -237,3 +237,4 @@ public class Pepsi {
 ```
 # Output
 ![image](https://github.com/user-attachments/assets/da5c27e2-26ba-4de2-8470-b4bfc7fd7e49)
+# Example- Method Chaining
