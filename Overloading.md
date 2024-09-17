@@ -8,11 +8,9 @@ When we define more than one constructor or more than one method with the same n
 Constructor overloading occurs when we define more than one constructor in a class.
 
 ### b. Conditions for Overloading
-- **Arguments must be different** for overloading.
-- It can differ in the following ways:
-  1. **Number of parameters**
-  2. **Type of parameters**
-  3. **Order of parameters**
+  1. **Argument must be different for overloading**
+  2. **Number of parameters / type of parameters / order of parameters**
+  3. **At Least one of above must be different for overloading.**
 
 At least one of the above criteria must be different for overloading.
 
