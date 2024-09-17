@@ -300,3 +300,5 @@ public Pepsi m1() {
      }
 }
 ```
+# Output
+![image](https://github.com/user-attachments/assets/99916214-7884-4354-8690-116253b35baf)
