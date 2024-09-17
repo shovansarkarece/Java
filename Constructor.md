@@ -72,3 +72,5 @@ public class JalebiDemo {
     }
 }
 ```
+> 1.It is not important to create any  constructor in java class.
+> Because when we don't create any constructor in class  then java compiler create on default constructor for us.
