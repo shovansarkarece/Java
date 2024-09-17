@@ -52,7 +52,7 @@ public class JalebiDemo {
 public class JalebiDemo {
     public static void main(String[] args) {
 
-        Jalebi j1 = new Jalebi(500, "Green Jalebi");
+        Jalebi j1 = new Jalebi(500, "Green Jalebi"); //Recommended Procedure 
 
         // j1.price = 500;//Unnecessary Object Creation
         // j1.name = "Green Jalebi";//Unnecessary Object Creation
