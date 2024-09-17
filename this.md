@@ -192,7 +192,7 @@ public class Pepsi {
 ```
 # Output
 ![image](https://github.com/user-attachments/assets/5e60119d-2338-418e-92f5-0ad2b65ec706)
-
+# Example-Passing Current Object
 ```
 public class Pepsi {
     // instance variable
@@ -236,5 +236,4 @@ public class Pepsi {
 }
 ```
 # Output
-![image](https://github.com/user-attachments/assets/da5c27e2-26ba-4de2-8470-b4bfc7fd7e49)
 ![image](https://github.com/user-attachments/assets/da5c27e2-26ba-4de2-8470-b4bfc7fd7e49)
