@@ -40,4 +40,26 @@ public class Pepsi {
 ```
 # Output
 ![image](https://github.com/user-attachments/assets/2eaa3cd0-d547-46dc-8de8-d93c45ee3ced)
-
+# Example-Calling Current Class Methods and Variables
+> The `this` keyword is used to call the current class's methods and variables.
+```
+public class Pepsi {
+    // instance variable
+    double price = 30;
+    String brand = "B1";
+    public Pepsi() {
+        double price = 15;
+         System.out.println("Price of Pepsi is " + price);
+         System.out.println("Price of Pepsi is " + this.price);
+         System.out.println("Brand " + this.brand);
+         this.display();
+         display();
+    }
+    public void display() {
+        System.out.println("display method()");
+    }
+    public static void main(String[] args) {
+        new Pepsi();
+    }
+}
+```
