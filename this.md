@@ -38,5 +38,6 @@ public class Pepsi {
     }
 }
 ```
+# Output
 ![image](https://github.com/user-attachments/assets/2eaa3cd0-d547-46dc-8de8-d93c45ee3ced)
 
