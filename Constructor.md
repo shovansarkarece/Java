@@ -42,8 +42,8 @@ public class JalebiDemo {
     }
  
     public static void main(String[] var0) {
-       Jalebi var1 = new Jalebi(500, "Green Jalebi");
-       Jalebi var2 = new Jalebi(600, "Red Jalebi");
+       Jalebi var1 = new Jalebi(500, "Green Jalebi");// Parameterized Constructor Calling(Recommended Procedure) 
+       Jalebi var2 = new Jalebi(600, "Red Jalebi");// Parameterized Constructor Calling(Recommended Procedure) 
        var1.displayAll();
        var2.displayAll();
     }
@@ -52,14 +52,14 @@ public class JalebiDemo {
 public class JalebiDemo {
     public static void main(String[] args) {
 
-        Jalebi j1 = new Jalebi(500, "Green Jalebi"); //Recommended Procedure 
+        Jalebi j1 = new Jalebi(500, "Green Jalebi"); //Parameterized Constructor Calling(Recommended Procedure)
 
-        // j1.price = 500;//Unnecessary Object Creation
-        // j1.name = "Green Jalebi";//Unnecessary Object Creation
+        // j1.price = 500;//Unnecessary Object Creation not recommended
+        // j1.name = "Green Jalebi";//Unnecessary Object Creation not recommended
 
         // j1.showPrice();//Unnecessary Object Creation
 
-        Jalebi j2 = new Jalebi(600, "Red Jalebi");//Recommended Procedure 
+        Jalebi j2 = new Jalebi(600, "Red Jalebi");//Parameterized Constructor Calling(Recommended Procedure)
 
         // j2.price = 600;
         // j2.name = "Red Jalebi";
