@@ -155,6 +155,43 @@ public class Pepsi {
 ```
 # Output
 ![image](https://github.com/user-attachments/assets/05e0a04e-dcb8-4319-a2de-b56353c264ad)
+# Example- Referring to Current Object
+```
+public class Pepsi {
+    // instance variable
+    double price = 30;
+    String brand = "B1";
+    public Pepsi() {
+        // constructor calling--it must be the first line
+        this(30.98, "Cocacola");
+
+        System.out.println("Zero Arg constructor");
+        System.out.println("Creating object");
+        System.out.println("Wow its amazing wor");
+    }
+    public Pepsi(double price, String brand) {
+        System.out.println("Two arg constructor");
+        this.price = price;
+        this.brand = brand;
+    }
+      public void display() {
+        System.out.println("Price : " + price);
+        System.out.println("Brand : " + this.brand);
+        System.out.println("display()"+this);
+      }
+     public static void main(String[] args) {
+         Pepsi pepsi1 = new Pepsi();
+         System.out.println("Object Created");
+         pepsi1.display();
+         System.out.println(pepsi1);
+         Pepsi pepsi2 = new Pepsi(90.23, "MakeItDrink");
+         pepsi2.display();
+         System.out.println(pepsi2);
+     }
+}
+```
+# Output
+![image](https://github.com/user-attachments/assets/5e60119d-2338-418e-92f5-0ad2b65ec706)
 
 
 
