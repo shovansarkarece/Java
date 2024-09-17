@@ -26,14 +26,17 @@
 public class Pepsi {
     // instance variable
     double price = 30;
+    String brand = "B1";
     public Pepsi() {
         double price = 15;
          System.out.println("Price of Pepsi is " + price);
          System.out.println("Price of Pepsi is " + this.price);
+         System.out.println("Brand " + this.brand);
     }
     public static void main(String[] args) {
         new Pepsi();
     }
 }
 ```
-![image](https://github.com/user-attachments/assets/41601fcf-5789-413d-9df5-be37bc9f906d)
+![image](https://github.com/user-attachments/assets/2eaa3cd0-d547-46dc-8de8-d93c45ee3ced)
+
