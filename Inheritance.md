@@ -152,3 +152,55 @@ public class Main3{
 > > > Child's Reference= Child's Object Creation 
 > > > > Child's Reference= Parent's Object Creation (Impossible)
 > > > > >Parent's Reference= Parent's Object Creation 
+```
+class Parent {
+    public void parentProperty(){
+        System.out.println("Parent have 3 BHK Flat and 1KG Gold");
+    }
+}
+class Child1 extends Parent{
+    public void child1Property(){
+        System.out.println("Royal Enfield Bike");
+    }
+}
+class Child2 extends Parent{
+    public void child2Property(){
+        System.out.println("KTM Bike");
+    }
+}
+class Child3 extends Parent{
+    public void child2Property(){
+        System.out.println("R15 Bike");
+    }
+}
+public class Main4{
+    public static void main(String[] args) {
+
+        System.out.println("Parent Object Creation and accessing method");
+
+        Parent p = new Parent();
+        p.parentProperty();
+
+        System.out.println("Child1's Object Creation and accessing method");
+
+        Child1 c1 = new Child1();
+        c1.parentProperty();
+        c1.child1Property();
+
+        System.out.println("Child2's Object Creation and accessing method");
+          
+        Child2 c2 = new Child2();
+        c2.parentProperty();
+        c2.child2Property();
+
+        System.out.println("Child3's Object Creation and accessing method");
+          
+        Child3 c3 = new Child3();
+        c3.parentProperty();
+        c3.child2Property();
+
+    }
+}
+```
+# Output
+![image](https://github.com/user-attachments/assets/49fe35c4-8d13-44de-839e-b8b25f601088)
