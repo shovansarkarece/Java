@@ -151,7 +151,9 @@ public class Main3{
 > >  Parent's Reference= Child's Object Creation
 > > > Child's Reference= Child's Object Creation 
 > > > > Child's Reference= Parent's Object Creation (Impossible)
-> > > > >Parent's Reference= Parent's Object Creation 
+
+![image](https://github.com/user-attachments/assets/1495aa5d-ea62-4dbf-8571-e6818024220b)
+![image](https://github.com/user-attachments/assets/73c67d9c-5a48-4581-9002-64fd0c4cfa62)
 ```
 class Parent {
     public void parentProperty(){
