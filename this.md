@@ -63,6 +63,9 @@ public class Pepsi {
     }
 }
 ```
+# Output
+![image](https://github.com/user-attachments/assets/7e6c50c3-37c6-4cf4-bc92-24f4d7e903d1)
+
 # Example-Calling Current Class Constructor
 > The this() is used to call the current class constructor from inside another constructor.
 ```
