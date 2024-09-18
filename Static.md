@@ -37,7 +37,7 @@ public class Student {
         public static void main(String[] args) {
 
     System.out.println("main mehtod");
-    System.out.println(college);
+    System.out.println(college);//Default value
     System.out.println(collegeAddress);
     }
     
@@ -45,3 +45,59 @@ public class Student {
 ```
 # Output
 ![image](https://github.com/user-attachments/assets/95263963-bd60-4865-b4ae-da8bf9a60fa0)
+
+# Example-2
+```
+public class Student {
+
+    // static variables- single copy
+    // all object will share same copy
+    // 1
+    static String college;
+    static String collegeAddress = "Lucknow";
+    static {
+        System.out.println(college);//Default value
+        System.out.println(collegeAddress);
+        System.out.println("static block 1");
+    }
+        public static void main(String[] args) {
+          System.out.println("main mehtod");
+    }
+    
+}
+```
+# Output
+![image](https://github.com/user-attachments/assets/761d80a8-6621-43cf-a64c-1c591bed5b68)
+# Example-3
+```
+public class Student {
+
+    // static variables- single copy
+    // all object will share same copy
+
+    // 1
+    static String college;
+    static String collegeAddress = "Lucknow";
+    String studentname;
+    // 2
+    static {
+
+        System.out.println(college);
+        System.out.println(collegeAddress);
+        System.out.println("static block 1");
+    }
+    // 3
+      static {
+        college = "ChintuCollege";
+        collegeAddress = "ChintuChauraha";
+        System.out.println("static block 2");
+    }
+    public static void main(String[] args) {
+    System.out.println("main mehtod");
+    System.out.println(college);
+    System.out.println(collegeAddress);
+    }
+}
+```
+# Output
+![image](https://github.com/user-attachments/assets/b7204503-0608-481f-a838-d1c9da3d3bda)
