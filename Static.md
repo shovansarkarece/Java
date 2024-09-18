@@ -22,7 +22,7 @@
 3. They can access other static variables and methods of the class.
 ## Graphical Overview of Static Execution Flow
 ![image](https://github.com/user-attachments/assets/474a0df4-ae26-471e-8b48-8f8cdd0c187d)
-# Example-1
+# Example-1(Statc Variable cannot access instance variables)
 ![image](https://github.com/user-attachments/assets/4b619162-8b82-4293-a683-dacf033370d9)
 # Example-2
 ```
