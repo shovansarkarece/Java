@@ -92,3 +92,6 @@ public class Main2{
     }
 }
 ```
+# Multi-Level Inheritance
+![image](https://github.com/user-attachments/assets/17441017-c817-40fd-bc33-67b54c4900c1)
+
