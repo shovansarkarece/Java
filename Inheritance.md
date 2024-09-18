@@ -10,11 +10,12 @@
 # Types of Inheritance
 
 1. **Single Inheritance**: A subclass inherits from only one superclass.
-2. **Multilevel Inheritance**: A subclass inherits from a superclass, which itself inherits from another superclass.
-3. **Hierarchical Inheritance**: Multiple subclasses inherit from a single superclass.
-4. **Multiple Inheritance**: A subclass inherits from multiple superclasses (not directly supported in Java, but achieved through interfaces).
-5. **Hybrid Inheritance**: Involving more than one inheritance.
-6. **Cyclic Inheritance**: When a cycle is formed in the hierarchy.
+2. **Multilevel Inheritance**: A subclass inherits from a superclass, which itself inherits from another superclass.When more than two subclasses are inherited from one super class then Multi Level inheritence
+                 Achieved.
+4. **Hierarchical Inheritance**: Multiple subclasses inherit from a single superclass.
+5. **Multiple Inheritance**: A subclass inherits from multiple superclasses (not directly supported in Java, but achieved through interfaces).
+6. **Hybrid Inheritance**: Involving more than one inheritance.
+7. **Cyclic Inheritance**: When a cycle is formed in the hierarchy.
 
 Inheritance is a powerful tool for building well-structured, reusable, and extensible Java applications.
 
@@ -48,3 +49,46 @@ public class Main{
 ```
 # Output
 ![image](https://github.com/user-attachments/assets/3cd8e5c3-3dd5-4713-bdb4-135aec8d2101)
+# Single Level Inheritance
+```
+class Parent {
+    String homeName = "Home Sweet Home";
+    double property = 100000;
+    public void parentProperty(){
+        System.out.println("Parent property is:"+ property);
+    }
+}
+class Child extends Parent{
+    String childName = "Bunty";
+    String schoolName = "XYZ Public School";
+    public void schoolName(){
+        System.out.println("Child school name is :" + schoolName);
+    }
+}
+public class Main2{
+    public static void main(String[] args){
+    ////Printing Parent Data
+    Parent p = new Parent();
+    p.parentProperty();
+    //p.schoolName();// with parent reference we can't call child data
+    //System.out.println(p.childName); //with parent reference we can't call child data
+    System.out.println();
+    
+    ////Printing Child Data
+
+    Child c = new Child();
+    System.out.println(c.childName);
+    c.schoolName();
+    c.parentProperty();
+    System.out.println(c.homeName);
+
+    System.out.println();
+    
+    Parent p1 = new Child();////Reference of Parent and object of child is possible
+    System.out.println(c.homeName);
+    p1.parentProperty();
+
+    //Child c1 = new Parent();////Reference of Child and object of Parent is impossible
+    }
+}
+```
