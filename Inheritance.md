@@ -215,4 +215,8 @@ public class Main4{
 
 # Problem of Multiple Inheritance in Java
 ![image](https://github.com/user-attachments/assets/fbfce920-3462-4389-bbcd-da4c8ea4f519)
+# Cyclic Inheritance
+![image](https://github.com/user-attachments/assets/ef51ab80-f442-42df-9ee3-065c5945ef00)
+![image](https://github.com/user-attachments/assets/268111de-333d-418e-9640-cbcfdcb1b1ec)
+
 
