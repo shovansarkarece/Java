@@ -94,7 +94,7 @@ public class Main2{
 ```
 # Multi-Level Inheritance
 ![image](https://github.com/user-attachments/assets/17441017-c817-40fd-bc33-67b54c4900c1)
-# Multi-Level Inheritance
+> Parent reference is capable to hold  child’s object  but child’s reference  is incapable to hold  Parent’s object
 ```
 class GrandParent{
     int gold = 100;
@@ -146,3 +146,4 @@ public class Main3{
     }
 }
 ```
+# Hierarchical Inheritance
