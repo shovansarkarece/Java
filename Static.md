@@ -23,6 +23,8 @@
 ## Graphical Overview of Static Execution Flow
 ![image](https://github.com/user-attachments/assets/474a0df4-ae26-471e-8b48-8f8cdd0c187d)
 # Example-1
+![image](https://github.com/user-attachments/assets/4b619162-8b82-4293-a683-dacf033370d9)
+# Example-2
 ```
 public class Student {
 
@@ -46,7 +48,7 @@ public class Student {
 # Output
 ![image](https://github.com/user-attachments/assets/95263963-bd60-4865-b4ae-da8bf9a60fa0)
 
-# Example-2
+# Example-3
 ```
 public class Student {
 
@@ -68,7 +70,7 @@ public class Student {
 ```
 # Output
 ![image](https://github.com/user-attachments/assets/761d80a8-6621-43cf-a64c-1c591bed5b68)
-# Example-3
+# Example-4
 ```
 public class Student {
 
@@ -101,7 +103,7 @@ public class Student {
 ```
 # Output
 ![image](https://github.com/user-attachments/assets/b7204503-0608-481f-a838-d1c9da3d3bda)
-# Example-4(Static after main method)
+# Example-5(Static after main method)
 ```
 public class Student {
 
@@ -137,3 +139,5 @@ public class Student {
 ```
 # Output
 ![image](https://github.com/user-attachments/assets/3f8b6ce1-486d-49d5-95c6-2a263ca9aa8a)
+# Example-5(Automatically Execution without Main method)
+![image](https://github.com/user-attachments/assets/3a772993-dea4-4b77-91ff-c6002a3b6846)
