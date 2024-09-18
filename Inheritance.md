@@ -206,5 +206,10 @@ public class Main4{
 ```
 # Output
 ![image](https://github.com/user-attachments/assets/49fe35c4-8d13-44de-839e-b8b25f601088)
-# Nultiple Inheritence
+# Multiple Inheritence
 ![image](https://github.com/user-attachments/assets/9fb6c5a4-cb67-4f9e-9a80-4fc0c7b2bc4a)
+![image](https://github.com/user-attachments/assets/4d26ae4c-490d-4b88-b9bf-20f8d9569c0f)
+![image](https://github.com/user-attachments/assets/7265cc9f-a0c4-49a9-8fd7-9588d7e55bac)
+# Problem of Multiple Inheritance in Java
+![image](https://github.com/user-attachments/assets/fbfce920-3462-4389-bbcd-da4c8ea4f519)
+
