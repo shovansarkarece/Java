@@ -141,3 +141,6 @@ public class Student {
 ![image](https://github.com/user-attachments/assets/3f8b6ce1-486d-49d5-95c6-2a263ca9aa8a)
 # Example-5(Automatically Execution without Main method)
 ![image](https://github.com/user-attachments/assets/3a772993-dea4-4b77-91ff-c6002a3b6846)
+# Example-7(Manually Execution Impossible without main method)
+> But Till Java version 5 Manually Execution is possible without main method to execute static method
+![image](https://github.com/user-attachments/assets/7e823090-bf90-496e-b209-2ce0412090c0)
