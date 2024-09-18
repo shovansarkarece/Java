@@ -1,3 +1,14 @@
+# Static Keyword
+
+1. **To create static variables**:
+   a. `static int a = 50;`
+2. **To create static methods**:
+   a. `public static void test() { }`
+3. **To create static blocks**:
+   a. `static { }`
+
+
+
 # Static Execution Flow
 
 1. **Class Loading**:
