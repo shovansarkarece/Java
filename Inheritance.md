@@ -17,6 +17,9 @@
 6. **Cyclic Inheritance**: When a cycle is formed in the hierarchy.
 
 Inheritance is a powerful tool for building well-structured, reusable, and extensible Java applications.
+
+![image](https://github.com/user-attachments/assets/24b24005-c1fd-4ecc-94f2-e1ade43a73e3)
+
 # Example-1
 ```
 class Parent{
