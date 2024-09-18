@@ -38,8 +38,8 @@ public class Main{
         c.Home();
         c.mobile();
 ////Not Accessible because of Parent Class is unable to access child's method
-        Parent p = new Parent();
-        p.mobile();
+        //Parent p = new Parent();
+        //p.mobile();
     }
 }
 ```
