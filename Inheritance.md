@@ -43,4 +43,5 @@ public class Main{
     }
 }
 ```
+# Output
 ![image](https://github.com/user-attachments/assets/3cd8e5c3-3dd5-4713-bdb4-135aec8d2101)
