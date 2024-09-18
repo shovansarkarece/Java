@@ -206,3 +206,5 @@ public class Main4{
 ```
 # Output
 ![image](https://github.com/user-attachments/assets/49fe35c4-8d13-44de-839e-b8b25f601088)
+# Nultiple Inheritence
+![image](https://github.com/user-attachments/assets/9fb6c5a4-cb67-4f9e-9a80-4fc0c7b2bc4a)
