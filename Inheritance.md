@@ -94,4 +94,55 @@ public class Main2{
 ```
 # Multi-Level Inheritance
 ![image](https://github.com/user-attachments/assets/17441017-c817-40fd-bc33-67b54c4900c1)
+# Multi-Level Inheritance
+```
+class GrandParent{
+    int gold = 100;
+    public void grandParentProperty(){
+        System.out.println();
+    }
+}
+class Parent extends GrandParent{
+    public void parentProperty(){
+        System.out.println("Parent have 3 BHK Flat");
+    }
+}
+class Child1 extends Parent{
+    public void child1Property(){
+        System.out.println("Child 1 has R15 Bike");
+    }
+}
+class Child2 extends Child1{
+    public void child2Property(){
+        System.out.println("Child 2 has Toy Bike");
+    }
+}
+public class Main3{
+    public static void main(String[] args) {
+        GrandParent g = new GrandParent();
+        g.grandParentProperty();
 
+        System.out.println("Parent Object Creation and accessing method");
+
+        Parent p = new Parent();
+        p.grandParentProperty();
+        p.parentProperty();
+
+        System.out.println("Child1's Object Creation and accessing method");
+
+        Child1 c1 = new Child1();
+        c1.grandParentProperty();
+        c1.parentProperty();
+        c1.child1Property();
+
+        System.out.println("Child2's Object Creation and accessing method");
+          
+        Child2 c2 = new Child2();
+        c2.grandParentProperty();
+        c2.parentProperty();
+        c2.child1Property();
+        c2.child2Property();
+
+    }
+}
+```
