@@ -147,3 +147,8 @@ public class Main3{
 }
 ```
 # Hierarchical Inheritance
+> Parent's Reference= Parent's Object Creation
+> >  Parent's Reference= Child's Object Creation
+> > > Child's Reference= Child's Object Creation 
+> > > > Child's Reference= Parent's Object Creation (Impossible)
+> > > >Parent's Reference= Parent's Object Creation 
