@@ -22,6 +22,7 @@
 3. They can access other static variables and methods of the class.
 ## Graphical Overview of Static Execution Flow
 ![image](https://github.com/user-attachments/assets/474a0df4-ae26-471e-8b48-8f8cdd0c187d)
+# Example-1
 ```
 public class Student {
 
