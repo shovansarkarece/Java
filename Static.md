@@ -17,7 +17,7 @@
 3. **Static Method (MAIN) Execution**:
 
 ## Points
-1. Static blocks are only executed once, when the class is first loaded.
+1. Static blocks are only executed once, when the class is first loaded. A static block is responsible for initializing static variables.
 2. They cannot access instance variables or instance methods, as those only exist within objects.
 3. They can access other static variables and methods of the class.
 ## Graphical Overview of Static Execution Flow
