@@ -101,3 +101,39 @@ public class Student {
 ```
 # Output
 ![image](https://github.com/user-attachments/assets/b7204503-0608-481f-a838-d1c9da3d3bda)
+# Example-4(Static after main method)
+```
+public class Student {
+
+    // static variables- single copy
+    // all object will share same copy
+
+    // 1
+    static String college;
+    static String collegeAddress = "Lucknow";
+    String studentname;
+
+    // 2
+    static {
+
+        System.out.println(college);
+        System.out.println(collegeAddress);
+        System.out.println("static block 1");
+    }
+
+    public static void main(String[] args) {
+
+    System.out.println("main mehtod");
+    System.out.println(college);
+    System.out.println(collegeAddress);
+    }
+    //Static after main method
+    static {
+        college = "ChintuCollege";
+        collegeAddress = "ChintuChauraha";
+        System.out.println("static block 2");
+    }
+}
+```
+# Output
+![image](https://github.com/user-attachments/assets/3f8b6ce1-486d-49d5-95c6-2a263ca9aa8a)
