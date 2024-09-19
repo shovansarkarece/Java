@@ -1,9 +1,6 @@
 # `super` Keyword
 
 In Java, the `super` keyword is used to refer to the immediate parent class of a child class. In other words, the `super` keyword is used by a subclass whenever it needs to refer to its immediate superclass.
-
-## `super` Keyword
-
 1. Refer to the immediate parent class object.
 2. Accessing Superclass Members:
 3. Calling Superclass Constructors: `super()`
