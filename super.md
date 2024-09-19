@@ -236,3 +236,25 @@ public class SuperMethod1{
 }
 
 ```
+# Example-3 super() with parameter
+```
+class Parent extends GrandParent{
+    //Constructor
+    Parent(int a, int b){
+    System.out.println("Parent Constructor"+a+ " : "+b);
+    }
+}
+class Child extends Parent{
+    Child(int a, int b){
+        super(10,20);
+        System.out.println("Child Constructor");
+    }
+}
+public class SuperMethod2{
+    public static void main(String[] args) {
+        Child c= new Child(10,20);
+    }
+}
+```
+# Output
+![image](https://github.com/user-attachments/assets/2c9cc408-2015-4296-b751-75461430d161)
