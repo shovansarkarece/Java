@@ -107,4 +107,4 @@ public class Overriding{
 ![image](https://github.com/user-attachments/assets/3bfb5455-02a6-45ce-9a84-2140400295e1)
 # Example(Overriding with private keyword)
 ![image](https://github.com/user-attachments/assets/5106f822-a871-4f71-b698-94d5d08d5dab)
-![image](https://github.com/user-attachments/assets/5106f822-a871-4f71-b698-94d5d08d5dab)
+
