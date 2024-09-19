@@ -181,3 +181,58 @@ public class SuperMethod{
     }
 }
 ```
+# Example-2 super()
+![image](https://github.com/user-attachments/assets/6c918933-3b0c-4d95-8359-bf6204835538)
+```
+class GrandParent {
+    //Constructor
+    GrandParent(){
+        super();
+        System.out.println("GrandParent Constructor");
+    }
+}
+class Parent extends GrandParent{
+    //Constructor
+    Parent(){
+        super();
+        System.out.println("Parent Constructor");
+    }
+}
+class Child extends Parent{
+    Child(){
+        super();
+        System.out.println("Child Constructor");
+    }
+}
+public class SuperMethod{
+    public static void main(String[] args) {
+        Child c= new Child();
+    }
+}
+```
+# Example-3 super()
+![image](https://github.com/user-attachments/assets/190d20c5-d86f-4cbf-b2ca-9998190d566f)
+```
+class GrandParent {
+    //Constructor
+    GrandParent(){
+        super();
+        System.out.println("GrandParent Constructor");
+    }
+}
+class Parent extends GrandParent{
+    //Constructor
+}
+class Child extends Parent{
+    Child(){
+        super();//It calls grandparent constructor
+        System.out.println("Child Constructor");
+    }
+}
+public class SuperMethod1{
+    public static void main(String[] args) {
+        Child c= new Child();
+    }
+}
+
+```
