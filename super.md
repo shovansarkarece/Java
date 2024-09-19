@@ -159,3 +159,25 @@ public class SuperDemo {
 ![image](https://github.com/user-attachments/assets/051a10d3-496e-4dcd-a050-d00bba6f11db)
 1. super() method always work for constructor and always call Parent class constructor.
 2. Calling Superclass Constructors: `super()`
+![image](https://github.com/user-attachments/assets/fe269a98-69d5-4816-86df-cafeeace53a4)
+# Example-1 super()
+```
+class Parent {
+    //Constructor
+    Parent(){
+        super();
+        System.out.println("Parent Constructor");
+    }
+}
+class Child extends Parent{
+    Child(){
+        super();
+        System.out.println("Child Constructor");
+    }
+}
+public class SuperMethod{
+    public static void main(String[] args) {
+        Child c= new Child();
+    }
+}
+```
