@@ -154,3 +154,6 @@ public class SuperDemo {
 }
 ```
 ![image](https://github.com/user-attachments/assets/0779c0e6-25e2-4bbf-b766-d9d9d1861810)
+
+# `super()` method
+![image](https://github.com/user-attachments/assets/051a10d3-496e-4dcd-a050-d00bba6f11db)
