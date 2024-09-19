@@ -157,3 +157,5 @@ public class SuperDemo {
 
 # `super()` method
 ![image](https://github.com/user-attachments/assets/051a10d3-496e-4dcd-a050-d00bba6f11db)
+1. super() method always work for constructor and always call Parent class constructor.
+2. Calling Superclass Constructors: `super()`
