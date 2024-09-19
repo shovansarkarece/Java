@@ -4,6 +4,9 @@ In Java, the `super` keyword is used to refer to the immediate parent class of a
 1. Refer to the immediate parent class object.
 2. Accessing Superclass Members:
 3. Calling Superclass Constructors: `super()`
+4. Using the super keyword we can access the Parent/Superclass function and variable.
+5. Super Keyword we can use only in function but not in the constructor.
+![image](https://github.com/user-attachments/assets/678d76d5-b8b0-4ab7-a742-0d0841bb8c7b)
 
 ## Points to Remember
 
