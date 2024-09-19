@@ -102,4 +102,3 @@ public class Overriding{
 # Overriding with respect to static method(Impossible)
 ![image](https://github.com/user-attachments/assets/4886d2b5-25e2-49e9-a227-77b8ad0b6810)
 ![image](https://github.com/user-attachments/assets/6b6ac50f-55ed-499d-af5c-648db474e495)
-![image](https://github.com/user-attachments/assets/6b6ac50f-55ed-499d-af5c-648db474e495)
