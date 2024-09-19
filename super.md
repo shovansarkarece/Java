@@ -296,7 +296,7 @@ public class SuperMethod3{
 ```
 # Output
 ![image](https://github.com/user-attachments/assets/e575a7ad-6c12-44a5-9ba0-9b82f2a14169)
-# Example- super keyword accessing Parent class variable and function
+# Example-4 super keyword accessing Parent class variable and function
 ```
 class Parent{
     String parentsName="Pankaj and Rekha";
@@ -338,3 +338,72 @@ public class SuperMethod4{
 
 ```
 ![image](https://github.com/user-attachments/assets/45fdae72-739d-4357-8880-207f3486dec9)
+# Example-4 super keyword accessing Parent class variable and function
+```
+// Parent class
+ class Parent {
+    String name;
+    String address;
+
+    public Parent(String name, String address) {
+        System.out.println("parent constructor");
+        this.name = name;
+        this.address = address;
+    }
+
+    public void show() {
+        System.out.println(name);
+        System.out.println(address);
+        System.out.println("==========");
+    }
+}
+
+// Child class extending Parent
+class Child extends Parent {
+
+    String name;
+    String anotherAddress;
+
+    public Child(String name, String anotherAddress, String parentName, String parentAddress) {
+        // parent class constructor
+        // super() call must be the first line of child class constructor
+        super(parentName, parentAddress);
+        System.out.println("child classs constructor called");
+        this.name = name;
+        this.anotherAddress = anotherAddress;
+
+    }
+
+    public void displayAll() {
+        // String anotherAddress = "test";
+        String name = "local name";
+
+        System.out.println(name);
+        System.out.println(super.name);
+        System.out.println(this.name);
+        System.out.println(super.address);
+        System.out.println(this.anotherAddress);
+
+        super.show();
+
+    }
+
+}
+
+// Main class for program entry
+public class SuperDemo {
+    public static void main(String[] args) {
+        Child child = new Child(
+                "John ",
+                "America",
+                "mohanlal",
+                "ranipur"
+
+        );
+        child.displayAll();
+    }
+}
+
+```
+# Output
+![image](https://github.com/user-attachments/assets/2084ca85-9b2c-4ce5-aaee-8569211a670c)
