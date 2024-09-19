@@ -103,5 +103,8 @@ public class Overriding{
 ![image](https://github.com/user-attachments/assets/4886d2b5-25e2-49e9-a227-77b8ad0b6810)
 ![image](https://github.com/user-attachments/assets/6b6ac50f-55ed-499d-af5c-648db474e495)
 # Overriding with respect to private keyword
+- We can't override the private method.
 ![image](https://github.com/user-attachments/assets/3bfb5455-02a6-45ce-9a84-2140400295e1)
-![image](https://github.com/user-attachments/assets/3bfb5455-02a6-45ce-9a84-2140400295e1)
+# Example(Overriding with private keyword)
+![image](https://github.com/user-attachments/assets/5106f822-a871-4f71-b698-94d5d08d5dab)
+![image](https://github.com/user-attachments/assets/5106f822-a871-4f71-b698-94d5d08d5dab)
