@@ -18,6 +18,32 @@ parameter list) as the superclass method.
 - The overriding method can have a broader access modifier (e.g., public overriding
 protected).
 - While overriding we can not decrease the visibility of the method.(public>protected>default>private)
+- While overriding the method resolution for JVM is based on the creation of runtime object
 - Constructors cannot be overridden.
 
 ![image](https://github.com/user-attachments/assets/cad342f9-eb47-486b-af0c-e10b222188e8)
+# Example-1
+```
+class Parent{
+    public void property(){
+        System.out.println("1 kg gold/2 flats/2 car");
+    }
+    public void marriage(){
+        System.out.println("Parent Class");
+    }
+}
+class child extends Parent{
+    public void marriage(){
+        System.out.println("Child Class");
+    }
+}
+public class Overriding{
+    public static void main(String[] args) {
+        child c = new child();
+        c.property();
+        c.marriage();
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/a3ae7680-35c6-4f16-9bd5-c57d65a9aae5)
+![image](https://github.com/user-attachments/assets/a3ae7680-35c6-4f16-9bd5-c57d65a9aae5)
