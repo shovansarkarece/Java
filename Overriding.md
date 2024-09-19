@@ -99,4 +99,4 @@ public class Overriding{
 }
 ```
 ![image](https://github.com/user-attachments/assets/2eb52f3d-7525-4c5f-9bcd-4f4f69519771)
-# Overriding with respect to static keyword
+# Overriding with respect to static method
