@@ -296,3 +296,45 @@ public class SuperMethod3{
 ```
 # Output
 ![image](https://github.com/user-attachments/assets/e575a7ad-6c12-44a5-9ba0-9b82f2a14169)
+# Example- super keyword accessing Parent class variable and function
+```
+class Parent{
+    String parentsName="Pankaj and Rekha";
+    public void property(){
+        System.out.println("Parent's Property with 1 Flast and 1 Kg Gold");
+    }
+    public void car(){
+        System.out.println("Parent's Car");
+    }
+} 
+class child extends Parent{
+    public void property(){
+        System.out.println("Parent's Property with 1 Flat and 2 Kg Gold");
+    }
+    public void car(){
+        System.out.println("Child Car With Airbags");
+    }
+    public void accessParentsOldCar(){
+         super.car();
+    }
+    public void accessParentsOldProperty(){
+        super.property();
+   }
+   public String getParentsName(){
+    return super.parentsName;
+}
+}
+public class SuperMethod4{
+    public static void main(String[] args) {
+        child c =new child();
+        c.car();
+        c.accessParentsOldCar();
+        c.property();
+        c.accessParentsOldProperty();
+        System.out.println(c.parentsName);
+        
+    }
+}
+
+```
+![image](https://github.com/user-attachments/assets/45fdae72-739d-4357-8880-207f3486dec9)
