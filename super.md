@@ -77,7 +77,8 @@ public class SuperDemo {
 }
 ```
 # Output
-![image](https://github.com/user-attachments/assets/de097161-87a5-4d85-ac47-08ec562b69f6)
+![image](https://github.com/user-attachments/assets/7070509b-eaf2-4c93-a986-e11b651d322f)
+
 # Example2- this keyword with super keyword
 ```
 // Parent class
@@ -113,5 +114,6 @@ public class SuperDemo {
 }
 ```
 # Output
-![image](https://github.com/user-attachments/assets/730ea028-c050-4fe6-ad78-bc0b8fafafb6)
+![image](https://github.com/user-attachments/assets/9c72d3a8-33e4-44e1-ae78-5254e3a49f3d)
+
 
