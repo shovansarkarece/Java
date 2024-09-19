@@ -116,4 +116,41 @@ public class SuperDemo {
 # Output
 ![image](https://github.com/user-attachments/assets/9c72d3a8-33e4-44e1-ae78-5254e3a49f3d)
 
-
+```
+// Parent class
+ class Parent {
+    String name="Parent Name";
+    String address="Parent Address";
+    // Show method to display name and address
+    public void show() {
+        System.out.println("Parent's Name: " + name);
+        System.out.println("Parent's Address: " + address);
+        System.out.println("==========");
+    }}
+// Child class extending Parent
+ class Child extends Parent {
+    String name= "Child Name";
+    String anotherAddress=" Child Address";
+    // Method to display local and inherited variables
+    public void displayAll() {
+        String name= "Local Variable of Child Name";
+        String anotherAddress="Local Variable of Child Address";
+        System.out.println(" Parent Class: " + super.name);
+        System.out.println(" Parent Class: " + super.address);
+        System.out.println(" Child Class: " + this.name);
+        System.out.println(" Child Class: " + this.anotherAddress);
+        System.out.println(" Child Class Local Variavle : " + name);
+        System.out.println(" Child Class Local Variavle : " + anotherAddress);
+    }
+}
+// Main class for program entry
+public class SuperDemo {
+    public static void main(String[] args) {
+        // Create an instance of Child
+        Child child = new Child();
+        // Display information using the Child's method
+        child.displayAll();
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/0779c0e6-25e2-4bbf-b766-d9d9d1861810)
