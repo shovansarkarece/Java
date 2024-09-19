@@ -1,5 +1,17 @@
-# Static Variable
+# `super` Keyword
 
-1. Variables declared with the `static` keyword inside a class, but outside any method, constructor, or block.
-2. Belongs to the class rather than any object. All instances of the class share the same static variable.
-3. Stored in the static memory. Only one copy exists regardless of the number of instances.
+In Java, the `super` keyword is used to refer to the immediate parent class of a child class. In other words, the `super` keyword is used by a subclass whenever it needs to refer to its immediate superclass.
+
+## `super` Keyword
+
+1. Refer to the immediate parent class object.
+2. Accessing Superclass Members:
+3. Calling Superclass Constructors: `super()`
+
+## Points to Remember
+
+1. Use `this` to refer to the current object's members.
+2. Use `super` to refer to the superclass's members.
+3. `super` must be the first statement in a subclass constructor if you're calling a superclass constructor.
+4. `super` cannot be used in static methods or blocks, as they don't belong to specific objects.
+
