@@ -41,6 +41,11 @@ public class SuperDemo {
     }}
 ```
 # Output
-![image](https://github.com/user-attachments/assets/de96c414-780b-4e3f-9ec0-d0c4f8ada5af)
+![image](https://github.com/user-attachments/assets/94b5fbb5-21bd-4e4f-83a4-181ac06816c0)
+
 # Example- this keyword with super keyword
 > When we use this keyword then it will print the instance variable.
+
+# Output
+![image](https://github.com/user-attachments/assets/09cf6fa6-620e-43ad-ae9c-07beeec53f1e)
+
