@@ -236,7 +236,7 @@ public class SuperMethod1{
 }
 
 ```
-# Example-3 super() with parameter
+# Example-3 super() with double arguments
 ```
 class Parent extends GrandParent{
     //Constructor
@@ -258,3 +258,36 @@ public class SuperMethod2{
 ```
 # Output
 ![image](https://github.com/user-attachments/assets/2c9cc408-2015-4296-b751-75461430d161)
+# Example-3 super() with triple arguments
+```
+class  GrandParent{
+    //Constructor
+    GrandParent(){
+    System.out.println("GrandParent No ARGS Constructor");
+    }
+    GrandParent(int a, int b){
+        System.out.println("GrandParent Two ARGS Constructor"+a+ " : "+b);
+        }
+        GrandParent(int a, int b,int c){
+            System.out.println("GrandParent Three ARGS Constructor"+ a + " : "+ b + " : "+ c);
+            }
+}
+class Parent extends GrandParent{
+    //Constructor
+    Parent(int a, int b){
+        super(23,24,25);
+    System.out.println("Parent Double ARGS Constructor"+a+ " : "+b);
+    }
+}
+class Child extends Parent{
+    Child(int a, int b){
+        super(10,20);
+        System.out.println("Child Constructor");
+    }
+}
+public class SuperMethod3{
+    public static void main(String[] args) {
+        Child c= new Child(10,20);
+    }
+}
+```
