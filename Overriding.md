@@ -46,4 +46,26 @@ public class Overriding{
 }
 ```
 ![image](https://github.com/user-attachments/assets/a3ae7680-35c6-4f16-9bd5-c57d65a9aae5)
-![image](https://github.com/user-attachments/assets/a3ae7680-35c6-4f16-9bd5-c57d65a9aae5)
+# Example-2(While overriding we can not decrease the visibility of the method.(public>protected>default>private))
+```
+class Parent{
+    protected void property(){
+        System.out.println("1 kg gold/2 flats/2 car");
+    }
+    public void marriage(){
+        System.out.println("Parent Class");
+    }
+}
+class child extends Parent{
+    public void marriage(){/////Here we increase the visibility from protected to public but we can not decrease the visibility
+        System.out.println("Child Class");
+    }
+}
+public class Overriding{
+    public static void main(String[] args) {
+        child c = new child();
+        c.property();
+        c.marriage();
+    }
+}
+```
