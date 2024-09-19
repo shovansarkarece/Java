@@ -93,7 +93,7 @@ public class Overriding{
         Parent p = new Parent();
         p.property();
         p.marriage();
-        Parent p1 = new child();
+        Parent p1 = new child();//In overriding when the runtime whatever object is created only that object's method or property will be shown
         p1.marriage();
     }
 }
