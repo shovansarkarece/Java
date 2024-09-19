@@ -12,6 +12,7 @@ In Java, the `super` keyword is used to refer to the immediate parent class of a
 3. `super` must be the first statement in a subclass constructor if you're calling a superclass constructor.
 4. `super` cannot be used in static methods or blocks, as they don't belong to specific objects.
 ```
+# Example- Super Keyword
 // Parent class
  class Parent {
     String name="Parent Name";
@@ -27,7 +28,7 @@ In Java, the `super` keyword is used to refer to the immediate parent class of a
     String anotherAddress;
     // Method to display local and inherited variables
     public void displayAll() {
-        System.out.println("Local Name: " + super.name);
+        System.out.println("Local Name: " + super.name);//Accessing Parent class using super keyword
         System.out.println("Local Name: " + super.address);
     }}
 // Main class for program entry
