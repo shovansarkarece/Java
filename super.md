@@ -28,8 +28,8 @@ In Java, the `super` keyword is used to refer to the immediate parent class of a
     String anotherAddress;
     // Method to display local and inherited variables
     public void displayAll() {
-        System.out.println("Local Name: " + super.name);//Accessing Parent class using super keyword
-        System.out.println("Local Name: " + super.address);
+        System.out.println(" Parent Class: " + super.name);//Accessing Parent class using super keyword
+        System.out.println(" Parent Class: " + super.address);
     }}
 // Main class for program entry
 public class SuperDemo {
@@ -41,4 +41,6 @@ public class SuperDemo {
     }}
 ```
 # Output
-![image](https://github.com/user-attachments/assets/14858183-5897-4e9f-83d3-8f489c57f98c)
+![image](https://github.com/user-attachments/assets/de96c414-780b-4e3f-9ec0-d0c4f8ada5af)
+# Example- this keyword with super keyword
+> When we use this keyword then it will print the instance variable.
