@@ -24,3 +24,23 @@ public class VARARGS{
     }
 }
 ```
+![image](https://github.com/user-attachments/assets/6f2e2bb7-b2c9-48e7-90b6-da0794cf7973)
+# Example-2
+```
+public class VARARGS{
+    // public void m1(int...a){
+        public void m1(double...a){
+        System.out.println("varargs called"+ a.length);
+    }
+    public void m1(double a,double b,double c){
+        System.out.println("Triple Parameter Called"+"  "+ a + "  "+ b +"  " + c );
+    }
+    public static void main(String[] args){
+      VARARGS v= new VARARGS();
+      v.m1(10);
+      v.m1(10,20,30);
+      //v.m1('Suva','Sarkar',20,30);//Not possible
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/dddcd1c0-c977-4e0c-95ba-b3702b307de6)
