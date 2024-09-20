@@ -109,4 +109,31 @@ public class Overriding{
 ![image](https://github.com/user-attachments/assets/5106f822-a871-4f71-b698-94d5d08d5dab)
 # Overriding with repect to Var-arg methods
 ![image](https://github.com/user-attachments/assets/7a5d826c-ec73-4991-9f83-dcb206dd26a6)
+```
+class Parent{
+    public void m1(int...a){
+        System.out.println("Parent Varargs"+"-->"+a.length);
+    }
+}
+class child extends Parent{
+    public void m1(int a){
+        System.out.println("Child m1 Method");
+    }
+    public void m1(int...a){
+        System.out.println("Child Varargs"+"-->"+a.length);
+    }
+}
+public class Overridingvarargs {
 
+    public static void main(String[] args) {
+        Parent p = new Parent();
+        p.m1(10,20,30,40,50,60,70,80,90,100);
+        System.out.println();
+
+        child c = new child();
+        c.m1(10);
+        c.m1(10,20,30,40);
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/56108c23-90ec-4bf8-8dd0-cce119cb911e)
