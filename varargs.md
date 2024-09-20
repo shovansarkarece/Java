@@ -7,7 +7,7 @@
 - Here implicit type casting like left-to-right data conversion is possible, which means automatic promotion in overloading.
 - But right-to-left data conversion is impossible.
 - Java 1.0(**Normal Methods**)>>Java 5.0(**Varargs Method**).So always normal method's priority is highest than varargs method.
-- 
+
 ![image](https://github.com/user-attachments/assets/c6d983b2-f26d-40f5-bd24-4c8534afc7a3)
 Example-1
 ```
