@@ -49,6 +49,14 @@ class Pen {
     // .....
 }
 ```
+# Output:
+```
+Printing something
+3 Rupya wala 1
+5 Rupya  wala 1
+3 Rupya wala 1 is writing in black Color
+5 Rupya  wala 1 is writing in blue Color
+```
 ### Another Example Of Class and Object
 ```
 public class MainClass {
@@ -63,12 +71,6 @@ public class MainClass {
 //        Dog d2 = new Dog();
 //        d2.name = "Leo";
 //        d2.walk();
-
-//        Complex num1 = new Complex();
-//        num1.a = 3;
-//        num1.b = 5;
-//        num1.print();
-
     }
 }
 class Dog { // factory
@@ -85,7 +87,12 @@ class Dog { // factory
     }
 }
 ```
-
+# Output:
+```
+Tommy is barking
+Tommy is walking
+Leo is walking
+```
 # Variables and Methods in Classes
 - 1.Classes are only blueprint  for objects
 - 2.Variables are called data members/properties. (basically separate copy are created for 
@@ -123,7 +130,7 @@ public class Demo {
     }
 }
 //Samosa Class
-public class Samosa {
+class Samosa {
 
     // properties/variables/data members
     // instance variables/non-static variables
@@ -147,4 +154,13 @@ public class Samosa {
     }
 
 }
+```
+# Output:
+```
+we are working here
+Color is Yellow
+Color is Reddish
+Price is : 3
+Price is : 10
+total price 13
 ```
