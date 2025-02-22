@@ -15,8 +15,8 @@ At least one of the above criteria must be different for overloading.
 ```
 public class Constructor_Overload { 
     public static void main(String[] args) {
-        Calculator Constructor_Overload_Without_Parameter = new Calculator();
-        Calculator Constructor_Overload_With_Parameter= new Calculator(1000 ,2000);
+        Constructor_Overload Constructor_Overload_Without_Parameter = new Constructor_Overload();
+        Constructor_Overload Constructor_Overload_With_Parameter= new Constructor_Overload(1000 ,2000);
     }
     int x;
     int y;
