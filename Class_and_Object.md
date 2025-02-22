@@ -57,6 +57,8 @@ Printing something
 3 Rupya wala 1 is writing in black Color
 5 Rupya  wala 1 is writing in blue Color
 ```
+### How does object creation look like?
+![class](https://github.com/user-attachments/assets/12c829a5-e3dc-422e-8c93-73ad6fff5c4a)
 ### Another Example Of Class and Object
 ```
 public class MainClass {
@@ -164,3 +166,5 @@ Price is : 3
 Price is : 10
 total price 13
 ```
+### How does object creation look like?
+![No name](https://github.com/user-attachments/assets/298030e0-102e-4f13-93a2-ee9e913d1c78)
