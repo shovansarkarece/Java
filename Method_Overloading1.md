@@ -1,4 +1,6 @@
 # Method Overloading
+![image](https://github.com/user-attachments/assets/7f1d87fe-4203-46ad-ba03-4370d58069ee)
+
 - Method overloading refers to creating multiple methods within the same class with the same name but different parameters.
 - Java compiler will resolve this at compile time-based on number of parameters, datatype of parameter and order of the parameters. 
 > In method overloading while writing the method signature we have to follow following 3 Rules.
