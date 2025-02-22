@@ -12,7 +12,6 @@
 
 ![image](https://github.com/user-attachments/assets/3135ac04-71bb-4a68-a1ed-c1114d0f3f39)
 
-![image](https://github.com/user-attachments/assets/7f1d87fe-4203-46ad-ba03-4370d58069ee)
 
 ## Example
 ```
