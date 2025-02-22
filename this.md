@@ -21,7 +21,7 @@
 7. **Handling Local and Instance Variable Name Conflicts**:
     - When a local variable and an instance variable have the same name, preference is given to the local variable. However, if the `this` keyword is used, the instance variable of the current object/class will be accessed.
 # Example-**Handling Local and Instance Variable Name Conflicts**:
-> When a local variable and an instance variable have the same name, preference is given to the local variable. However, if the `this` keyword is used, the instance variable of the current object/class will be accessed.
+- **When a local variable and an instance variable have the same name, preference is given to the local variable. However, if the `this` keyword is used, the instance variable of the current object/class will be accessed.**
 ```
 public class Pepsi {
     // instance variable
