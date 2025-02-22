@@ -63,6 +63,9 @@ Method overloading happens when we define more than one method with the same nam
 4. The **name of the method must be the same**.
 5. The **return type can be different**.
 6. Methods must be defined in the **same class**.
+7. **Java compiler will resolve this at compile time-based on number of parameters, datatype of parameter and order of the parameters.**
+
+## Example-1
 ```
 public class Calculator {
 
@@ -133,3 +136,169 @@ public class Calculator {
 // }
 ```
 ![image](https://github.com/user-attachments/assets/e705eee9-56e3-437c-ab87-2603e562027a)
+
+## Example-2
+```
+class AdditionCalc
+{
+
+	int add(int n1, int n2) //Method Overloading
+	{
+		return n1+n2;
+	}
+	
+	int add(int n1, int n2, int n3) //Method Overloading
+	{
+		return n1+n2+n3;
+	}
+	
+	double add(int n1, double n2) //Method Overloading
+	{
+		return n1+n2;
+	}
+//	void add(int n1, double n2)
+//	{
+//		double res= n1+n2;
+//	}
+	double add(double n1, int n2) //Method Overloading
+	{
+		return n1+n2;
+	}
+	
+	double add(double n1, double n2) //Method Overloading
+	{
+		return n1+n2;
+	}
+
+	double add(int n1, double n2, double n3) //Method Overloading
+	{
+		return n1+n2+n3;
+	}
+	
+	double add(double n1, double n2, double n3) //Method Overloading
+	{
+		return n1+n2+n3;
+	}
+	
+}
+
+public class LaunchMo 
+{
+
+	public static void main(String[] args) //Main Method
+	{
+		int x=10;
+		int y=20;
+		int z=30;
+		double a=10.5;
+		double b=20.5;
+		double c=30.5;
+		
+		AdditionCalc cal=new AdditionCalc();//Creation Of Object/Instantiation
+		
+//		int res=cal.add(x, y);
+//		System.out.println(res);
+		System.out.println(cal.add(x, y));
+		System.out.println(cal.add(a,b));
+		System.out.println(cal.add(x, y, z));
+		System.out.println(cal.add(a, b, c));
+		
+	}
+
+}
+```
+### Output
+![image](https://github.com/user-attachments/assets/5b438ca5-7eb0-446d-9830-33dc43280edf)
+
+## Example-3
+```
+class Mul{
+ int mul(int x,int y){
+     System.out.println("2 int Value");
+     return x*y;
+ } 
+ double mul(int x,int y,double z){
+     System.out.println("2 int 1 double");
+     return x*y*z;
+ }
+  double mul(double x,double y,double z){
+      System.out.println("3 double");
+     return x*y*z;
+ }
+  double mul(int x,double y){
+     return x*y;
+ } 
+   double mul(double x,int y){
+     return x*y;
+ } 
+}
+public class Launch {
+    public static void main(String[] args){
+        Mul m = new Mul();
+        System.out.println(m.mul(4,4));
+        System.out.println(m.mul(4,4,4));
+        System.out.println(m.mul(44,44,44));
+    }
+}
+```
+### Output
+![image](https://github.com/user-attachments/assets/7b175fca-191b-40d2-a572-6d4d5bd1e8fc)
+
+## Example-4
+```
+class Mul{
+ double mul(int x,int y,double z){
+     System.out.println("2 int 1 double");
+     return x*y*z;
+ }
+  double mul(double x,double y,double z){
+      System.out.println("3 double");
+     return x*y*z;
+ }
+  double mul(int x,double y){
+      System.out.println("1 int 1 double");
+     return x*y;
+ } 
+   double mul(double x,int y){
+      System.out.println("1 double 1 int");
+     return x*y;
+ } 
+}
+public class Launch {
+    public static void main(String[] args){
+        Mul m = new Mul();
+        System.out.println(m.mul(4,4));//It will throw an error because that type of arguments we are are passing
+                                       //which is not able to receive these parameter
+        System.out.println(m.mul(4,4,4));
+        System.out.println(m.mul(44,44,44));
+    }
+}
+```
+### Output
+![image](https://github.com/user-attachments/assets/672686bd-368b-407e-95ec-99db3b58e494)
+## Example-4(Main Method Overloading possible)
+```
+public class LaunchMo3 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("main method with String of args[]");
+		main(44);//main method with int of arg
+		main("Rohan", 4);//main method with int and String of arg
+	}
+	public static void main(int arg) //Main Method Overloading
+	{
+		System.out.println("main method with int of arg");
+	}
+	public static void main(int[] arg) //Main Method Overloading with int[] argument
+	{
+		System.out.println("main method with int[] of arg");
+	}
+	public static void main(String name, int age) //Main Method Overloading with String and int argument
+	{
+		System.out.println("main method with int and String of arg");
+	}
+}
+```
+### Output
+![image](https://github.com/user-attachments/assets/9f018202-30bc-4ec8-be9b-274a6373e4b4)
