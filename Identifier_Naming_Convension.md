@@ -6,6 +6,9 @@ Rules for naming Identifiers:
 3. case Sensitivity : car, CAR , cAR, Car
 4. Reserved Keyword’s: (int, for, if, class) cannot be used
 # Convention For Naming Identifiers (best for Identifiers):
+![image](https://github.com/user-attachments/assets/d081ab9d-877d-411f-befc-86de0fab2745) ![image](https://github.com/user-attachments/assets/adf089f6-e315-4543-9469-58ce139b6919)
+
+
 1. CamelCase: for classes, method and variable eg: carName, cityName
 2. Meaningful : String cityName = "10202" ,cityName="Agra"
 - Eg: Identifiers
