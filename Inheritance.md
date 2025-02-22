@@ -92,6 +92,18 @@ public class Main2{
     }
 }
 ```
+# Output:
+```
+Parent homename is:Home Sweet Homeand property name is:100000.0
+
+Bunty
+Child school name is :XYZ Public School
+Parent homename is:Home Sweet Homeand property name is:100000.0
+Home Sweet Home
+
+Home Sweet Home
+Parent homename is:Home Sweet Homeand property name is:100000.0
+```
 # Multi-Level Inheritance
 ![image](https://github.com/user-attachments/assets/17441017-c817-40fd-bc33-67b54c4900c1)
 > Parent reference is capable to hold  child’s object  but child’s reference  is incapable to hold  Parent’s object
@@ -145,6 +157,22 @@ public class Main3{
 
     }
 }
+```
+# Output:
+```
+
+Parent Object Creation and accessing method
+
+Parent have 3 BHK Flat
+Child1's Object Creation and accessing method
+
+Parent have 3 BHK Flat
+Child 1 has R15 Bike
+Child2's Object Creation and accessing method
+
+Parent have 3 BHK Flat
+Child 1 has R15 Bike
+Child 2 has Toy Bike
 ```
 # Hierarchical Inheritance
 > Parent's Reference= Parent's Object Creation
