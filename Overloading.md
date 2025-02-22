@@ -6,7 +6,6 @@ When we define more than one constructor or more than one method with the same n
 ## 2. Constructor Overloading
 ### a. Definition
 Constructor overloading occurs when we define more than one constructor in a class.
-
 ### b. Conditions for Overloading
   1. **Argument must be different for overloading**
   2. **Number of parameters / type of parameters / order of parameters**
@@ -19,6 +18,8 @@ At least one of the above criteria must be different for overloading.
 Method overloading happens when we define more than one method with the same name but with a different argument list.
 
 ![image](https://github.com/user-attachments/assets/59e2887e-42f3-482a-99d6-ab7fe893fc3b)
+
+![image](https://github.com/user-attachments/assets/7f1d87fe-4203-46ad-ba03-4370d58069ee)
 
 # Conditions for Method Overloading
 
