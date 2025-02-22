@@ -233,7 +233,19 @@ public class Main4{
 }
 ```
 # Output
-![image](https://github.com/user-attachments/assets/49fe35c4-8d13-44de-839e-b8b25f601088)
+```
+Parent Object Creation and accessing method
+Parent have 3 BHK Flat and 1KG Gold
+Child1's Object Creation and accessing method
+Parent have 3 BHK Flat and 1KG Gold
+Royal Enfield Bike
+Child2's Object Creation and accessing method
+Parent have 3 BHK Flat and 1KG Gold
+KTM Bike
+Child3's Object Creation and accessing method
+Parent have 3 BHK Flat and 1KG Gold
+R15 Bike
+```
 # Multiple Inheritence
 ![image](https://github.com/user-attachments/assets/9fb6c5a4-cb67-4f9e-9a80-4fc0c7b2bc4a)
 ![image](https://github.com/user-attachments/assets/00833e0d-bbfb-429a-aa79-ee072b94dfae)
