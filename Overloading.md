@@ -12,7 +12,38 @@ Constructor overloading occurs when we define more than one constructor in a cla
   3. **At Least one of above must be different for overloading.**
 
 At least one of the above criteria must be different for overloading.
-
+```
+public class Constructor_Overload { 
+    public static void main(String[] args) {
+        Calculator Constructor_Overload_Without_Parameter = new Calculator();
+        Calculator Constructor_Overload_With_Parameter= new Calculator(1000 ,2000);
+    }
+    int x;
+    int y;
+    // constructor overload
+    // non-parameterized constructor
+    public Constructor_Overload() {
+        System.out.println("Creating object:Non-Parameterized construcotr");
+        x = 100;
+        y = 200;
+        System.out.println("x = " + x + ", y = " + y);
+        
+    }
+    public Constructor_Overload(int a, int b) {
+        System.out.println("Creating object: Parameterized Construtor");
+        x = a;
+        y = b;
+        System.out.println("x = " + x + ", y = " + y);
+    }
+}
+```
+# Output:
+```
+Creating object:Non-Parameterized construcotr
+x = 100, y = 200
+Creating object: Parameterized Construtor
+x = 1000, y = 2000
+```
 ## 3. Method Overloading
 ### a. Definition
 Method overloading happens when we define more than one method with the same name but with a different argument list.
