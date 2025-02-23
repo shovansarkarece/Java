@@ -33,7 +33,7 @@ public class Pepsi {
          System.out.println("Price of Pepsi is " + this.price);////When we want to print instance variable then we
         /////use this keyword but if the same name of that instance and local variable available then local 
         /////variable will be printed without this keyword
-         System.out.println("Brand " + this.brand);
+         System.out.println("Brand " + this.brand);/////Instance Variable === this.variable name
     }
     public static void main(String[] args) {
         new Pepsi();
@@ -52,8 +52,8 @@ public class Pepsi {
     public Pepsi() {
         double price = 15;
          System.out.println("Price of Pepsi is " + price);
-         System.out.println("Price of Pepsi is " + this.price);
-         System.out.println("Brand " + this.brand);
+         System.out.println("Price of Pepsi is " + this.price);/////Instance Variable === this.variable name
+         System.out.println("Brand " + this.brand);/////Instance Variable === this.variable name
          this.display();
          display();
     }
