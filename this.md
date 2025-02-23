@@ -30,7 +30,8 @@ public class Pepsi {
     public Pepsi() {
         double price = 15;
          System.out.println("Price of Pepsi is " + price);
-         System.out.println("Price of Pepsi is " + this.price);
+         System.out.println("Price of Pepsi is " + this.price);////When we want to print instance variable then we use this keyword but if the same name of that instance and local variable available then local 
+        ///// variable will be printed without this keyword
          System.out.println("Brand " + this.brand);
     }
     public static void main(String[] args) {
