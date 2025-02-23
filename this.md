@@ -159,6 +159,51 @@ public class Pepsi {
 ```
 # Output
 ![image](https://github.com/user-attachments/assets/05e0a04e-dcb8-4319-a2de-b56353c264ad)
+# Example-4 Calling Current Class Constructor
+```
+class Teachers{
+    //non-static variables
+    int tid;
+    String tname;
+    double tsal;
+    String taddr;
+    //Static Variables
+    static String schoolName="ABC School";
+    static String schoolPrincipal="Padhi";
+    static String schoolAddr="Lucknow,India"; 
+    //Static Variable 
+    int noOfSubjectss=3;
+    String standard= "4th , 5th , 6th";
+    Teachers(int tid, String tname, double tsal, String taddr){
+        this.tid=tid;
+        this.tname=tname;
+        this.tsal=tsal;
+        this.taddr=taddr;
+    }
+    public String getSubjectDetails(){
+        return this.noOfSubjectss+":"+this.standard;
+    }
+    public String getSchoolDetails(){
+        return this.schoolName + ":" + this.schoolPrincipal + ":" + this.schoolAddr;
+    }
+    public String getDetails(){
+        String schoolDetails =this.getSchoolDetails();
+        String getSubjectDetails=this.getSubjectDetails();
+        return this.tid + ":"+this.tname + ":" + this.tsal + ":" + this.taddr + schoolDetails + getSubjectDetails;
+    }
+    
+}
+public class This_1{
+    public static void main(String[] args) {
+        Teachers t = new Teachers(101,"Suporna",100000,"Chattogram");
+        System.out.println(t.getDetails());
+    }
+}
+```
+# Output:
+```
+101:Suporna:100000.0:ChattogramABC School:Padhi:Lucknow,India3:4th , 5th , 6th
+```
 # Example- Referring to Current Object
 ```
 public class Pepsi {
