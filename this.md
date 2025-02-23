@@ -104,7 +104,6 @@ public class Pepsi {
     public Pepsi() {
         // constructor calling--it must be the first line
         this(30.98, "Cocacola");// WE are calling constructor which have two parameter
-
         System.out.println("Zero Arg constructor");
         System.out.println("Creating object");
         System.out.println("Wow its amazing wor");
