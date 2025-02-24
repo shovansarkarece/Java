@@ -204,6 +204,38 @@ public class This_1{
 ```
 101:Suporna:100000.0:ChattogramABC School:Padhi:Lucknow,India3:4th , 5th , 6th
 ```
+# Example-5 Calling Current Class Constructor
+```
+class Student{
+    Student(){
+        this(10);
+        System.out.println("Zero Argument Constructor");
+    }
+    Student(int a){
+        this(10,20);
+        System.out.println("One Argument Constructor");
+    }
+    Student(int a,int b){
+        this(10,20,30);
+        System.out.println("Double Argument Constructor");
+    }
+    Student(int a, int b,int c){
+        System.out.println("Triple Argument Constructor");
+    }
+}
+public class This_2{
+    public static void main(String [] args){
+        Student s = new Student();
+    }
+}
+```
+# Output:
+```
+Third Argument Constructor
+Double Argument Constructor
+One Argument Constructor
+Zero Argument Constructor
+```
 # Example- Referring to Current Object
 ```
 public class Pepsi {
