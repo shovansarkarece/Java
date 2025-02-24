@@ -189,3 +189,48 @@ public class Student {
 # Example-7(Manually Execution Impossible without main method)
 > ### But Till Java version 5 Manually Execution is possible without main method to execute static method
 ![image](https://github.com/user-attachments/assets/7e823090-bf90-496e-b209-2ce0412090c0)
+# Static Method Vs Non-Static Methods
+![image](https://github.com/user-attachments/assets/879ca7b8-b7b7-4a6b-9994-4ee363328f3e)
+# Example-1(Static Method we can use class name)
+```
+class Student{
+    /////Static data/class level data
+    static String schoolName= "City Public School";
+    static String principalName="Ramesh";
+    ////Non Static Data/Instance data
+    int sId;
+    String sName;
+    String pinCode;
+    ////Static Method
+    public static String getSchoolDetails(){
+        return "School Name:"+schoolName+"\nPrincipal Name"+principalName;
+    }
+    //Non Static Method
+    public String getStudentDetails(){
+        return sId + ":" + sName + ":" + pinCode;
+    }
+}
+public class Static_NonStatic{
+    public static void main(String[] args) {
+        Student firstStud = new Student();
+        Student secStud = new Student();
+        firstStud.sId=101;
+        firstStud.sName="Ram";
+        firstStud.pinCode="20801";
+        secStud.sId=102;
+        secStud.sName="Shyam";
+        secStud.pinCode="203213";
+        //Class Name:
+        System.out.println(Student.getSchoolDetails());
+        System.out.println();
+        System.out.println(firstStud.getSchoolDetails());
+    }
+```
+## Output:
+```
+School Name:City Public School
+Principal NameRamesh
+
+School Name:City Public School
+Principal NameRamesh
+```
