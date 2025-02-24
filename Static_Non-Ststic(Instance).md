@@ -50,7 +50,6 @@ public class Student {
 # Output
 ![image](https://github.com/user-attachments/assets/95263963-bd60-4865-b4ae-da8bf9a60fa0)
 # Example-3
-![image](https://github.com/user-attachments/assets/a64aa69c-2ab3-40d6-a6b4-8c5f82d7fa9d)
 ```
 class ClassRoom{
     //Static data
@@ -93,6 +92,7 @@ BlackBoard is Visible for Every Student
 C1 = Lala:1000:BlackBoard is Visible for Every Student
 C2 = Shyam:2000:BlackBoard is Visible for Every Student
 ```
+![image](https://github.com/user-attachments/assets/a64aa69c-2ab3-40d6-a6b4-8c5f82d7fa9d)
 # Example-4
 ```
 public class Student {
