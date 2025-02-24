@@ -20,7 +20,8 @@
 1. Static blocks are only executed once, when the class is first loaded. A static block is responsible for initializing static variables.
 2. They cannot access instance variables or instance methods, as those only exist within objects.
 3. They can access other static variables and methods of the class.
-4. 
+4. We can't declare a class with static but inner classes can be declared as static.
+5. In the case of instance variable for every object a separate copy will be created but in the case of a static variable, a single copy will be created at class level and shared by all objects of that class.
 ## Graphical Overview of Static Execution Flow
 ![image](https://github.com/user-attachments/assets/474a0df4-ae26-471e-8b48-8f8cdd0c187d)
 # Example-1(Statc Variable cannot access instance variables)
