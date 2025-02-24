@@ -49,8 +49,51 @@ public class Student {
 ```
 # Output
 ![image](https://github.com/user-attachments/assets/95263963-bd60-4865-b4ae-da8bf9a60fa0)
-
 # Example-3
+![image](https://github.com/user-attachments/assets/a64aa69c-2ab3-40d6-a6b4-8c5f82d7fa9d)
+```
+class ClassRoom{
+    //Static data
+    static String Blackboard= "BlackBoard is Visible for Every Student";
+    //Non Static/Instance Data
+    String sName;
+    int sId; 
+}
+public class Static{
+    //Non Static Area
+    public void m1(){
+    System.out.println(ClassRoom.Blackboard);
+    }
+    //Static Area
+    public static void main(String[] args) {
+        ClassRoom c1= new ClassRoom();
+        ClassRoom c2= new ClassRoom();
+        System.out.println(c1.Blackboard);
+        System.out.println(c2.Blackboard);
+        System.out.println();
+        //Non Static data we can access through object only and unable to access directly
+        c1.sName="Lala";
+        c1.sId=1000;
+        c2.sName="Shyam";
+        c2.sId=2000;
+//////Impossible to access data using ClassName but possible to access data using Object creation for non static Variable
+        // System.out.println("C1 = " + ClassRoom.sName + ":" + ClassRoom.sId + ":" + ClassRoom.Blackboard);
+        // System.out.println("C2 = " + ClassRoom.sName + ":" + ClassRoom.sId + ":" + ClassRoom.Blackboard);
+//////Possible to access data using ClassName also without object creation for static Variable        
+        System.out.println("C1 = " + c1.sName + ":" + c1.sId + ":" + ClassRoom.Blackboard);
+        System.out.println("C2 = " + c2.sName + ":" + c2.sId + ":" + ClassRoom.Blackboard);
+    }
+}
+```
+# Output:
+```
+BlackBoard is Visible for Every Student
+BlackBoard is Visible for Every Student
+
+C1 = Lala:1000:BlackBoard is Visible for Every Student
+C2 = Shyam:2000:BlackBoard is Visible for Every Student
+```
+# Example-4
 ```
 public class Student {
 
