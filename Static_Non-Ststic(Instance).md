@@ -234,3 +234,55 @@ Principal NameRamesh
 School Name:City Public School
 Principal NameRamesh
 ```
+# Example-2(Non Static Method we can call only with objects only)
+```
+class Student{
+    /////Static data/class level data
+    static String schoolName= "City Public School";
+    static String principalName="Ramesh";
+    ////Non Static Data/Instance data
+    int sId;
+    String sName;
+    String pinCode;
+    ////Static Method
+    public static String getSchoolDetails(){
+        return "School Name:"+schoolName+"\nPrincipal Name"+principalName;
+    }
+    //Non Static Method
+    public String getStudentDetails(){
+        return sId + ":" + sName + ":" + pinCode;
+    }
+}
+public class Static_NonStatic{
+    public static void main(String[] args) {
+        Student firstStud = new Student();
+        Student secStud = new Student();
+        firstStud.sId=101;
+        firstStud.sName="Ram";
+        firstStud.pinCode="20801";
+        secStud.sId=102;
+        secStud.sName="Shyam";
+        secStud.pinCode="203213";
+/////****************Non Static Method we can call only with objects only */
+        System.out.println(firstStud.getSchoolDetails());
+        System.out.println();
+        System.out.println(firstStud.getStudentDetails());
+        System.out.println();
+        System.out.println(secStud.getSchoolDetails());
+        System.out.println();
+        System.out.println(secStud.getStudentDetails());
+    }
+}
+```
+## Output:
+```
+School Name:City Public School
+Principal NameRamesh
+
+101:Ram:20801
+
+School Name:City Public School
+Principal NameRamesh
+
+102:Shyam:203213
+```
