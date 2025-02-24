@@ -191,7 +191,7 @@ public class Student {
 ![image](https://github.com/user-attachments/assets/7e823090-bf90-496e-b209-2ce0412090c0)
 # Static Method Vs Non-Static Methods
 ![image](https://github.com/user-attachments/assets/879ca7b8-b7b7-4a6b-9994-4ee363328f3e)
-# Example-1(Static Method we can use class name)
+# Example-1(Static Method we can use class name or without class name)
 ```
 class Student{
     /////Static data/class level data
