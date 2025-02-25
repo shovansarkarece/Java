@@ -326,6 +326,6 @@ public class Static_NonStatic{
 
 102:Shyam:203213:SchoolName is:City Public Schooland Principal Name is:Ramesh
 ```
-# If there is any change in ststic data then it is reflected(changed) everywhere whereas non static data changes only that particular object which is associated with instance data
+# If there is any change in static data then it is reflected(changed) everywhere whereas non static data changes only that particular object which is associated with instance data
 ![WhatsApp Image 2025-02-25 at 13 08 56_2f196ae6](https://github.com/user-attachments/assets/e68da09b-810e-4712-8d30-70a8e5ccfaf2)
 
