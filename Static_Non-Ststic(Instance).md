@@ -288,3 +288,41 @@ Principal NameRamesh
 ```
 # Example-3(We can not take non-static data in static area)
 ![WhatsApp Image 2025-02-25 at 12 32 21_1d735f8c](https://github.com/user-attachments/assets/d0e45ca0-c8dc-4b5f-b107-5015f81f257d)
+# Example-4(In non static area We can take static and non-static data both)
+```
+class Student{
+    /////Static data/class level data
+    static String schoolName= "City Public School";
+    static String principalName="Ramesh";
+    ////Non Static Data/Instance data
+    int sId;
+    String sName;
+    String pinCode;
+    public String getStudentDetails(){
+        //////Example-4 In non static area We can take static and non-static data both
+        return sId + ":" + sName + ":" + pinCode + ":" + "SchoolName is"+":"+schoolName +"and Principal Name is" + ":"+ principalName;
+    }
+}
+public class Static_NonStatic{
+    public static void main(String[] args) {
+        Student firstStud = new Student();
+        Student secStud = new Student();
+        firstStud.sId=101;
+        firstStud.sName="Ram";
+        firstStud.pinCode="20801";
+        secStud.sId=102;
+        secStud.sName="Shyam";
+        secStud.pinCode="203213";
+//////Example-4In non static area We can take static and non-static data both
+        System.out.println(firstStud.getStudentDetails());
+        System.out.println();
+        System.out.println(secStud.getStudentDetails());
+    }
+}
+```
+## Output:
+```
+101:Ram:20801:SchoolName is:City Public Schooland Principal Name is:Ramesh
+
+102:Shyam:203213:SchoolName is:City Public Schooland Principal Name is:Ramesh
+```
