@@ -286,3 +286,5 @@ Principal NameRamesh
 
 102:Shyam:203213
 ```
+# Example-3(We can not take non-static data in static area)
+![WhatsApp Image 2025-02-25 at 12 32 21_1d735f8c](https://github.com/user-attachments/assets/d0e45ca0-c8dc-4b5f-b107-5015f81f257d)
