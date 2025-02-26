@@ -46,6 +46,32 @@ public class Overriding{
 }
 ```
 ![image](https://github.com/user-attachments/assets/a3ae7680-35c6-4f16-9bd5-c57d65a9aae5)
+# Example-2
+```
+     class Mohanlal {
+        public void whatsYourName() {
+            System.out.println("My name is Mohanlal");
+        }
+    }
+     class Sohanlal extends Mohanlal {
+      public void whatsYourName() {
+         System.out.println("my name is sohanlal");
+      }
+     }
+     public class Overriding3 {
+        public static void main(String[] args) {
+            // Mohanlal mohanlal = new Mohanlal();
+            // mohanlal.whatsYourName();
+            Sohanlal sohanlal = new Sohanlal();
+            sohanlal.whatsYourName();
+        }
+}
+```
+# Output:
+```
+my name is sohanlal
+```
+
 # Example-2(While overriding we can not decrease the visibility of the method.(public>protected>default>private))
 ```
 class Parent{
