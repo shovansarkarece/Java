@@ -74,3 +74,60 @@ m1-Parent
 m1-GrandParent
 m1-SuperGrandParent
 ```
+# Example-3
+```
+public class Pepsi {
+    // instance variable
+    double price = 30;
+    String brand = "B1";
+    public Pepsi() {
+        // constructor calling--it must be the first line
+        this(30.98, "Cocacola");
+        System.out.println("Zero Arg constructor");
+        System.out.println("Creating object");
+        System.out.println("Wow its amazing wor");
+    }
+    public Pepsi(double price, String brand) {
+        System.out.println("Two arg constructor");
+        this.price = price;
+        this.brand = brand;
+    }
+    public Pepsi display() {
+        System.out.println("Price : " + price);
+        System.out.println("Brand : " + this.brand);
+        System.out.println("display() " + this);
+        Drinker drinker = new Drinker();
+        drinker.drink(this);
+        return this;
+    }
+public class Drinker {
+    public void drink(Pepsi p) {
+        System.out.println("drinker is drinking " + p);
+
+    }
+}  
+public Pepsi m1() {
+        System.out.println("m1() method");
+        return this;
+    }
+    public Pepsi m2() {
+        System.out.println("m2() method ");
+        return this;
+    }
+    public Pepsi m3() {
+        System.out.println("m3() method ");
+        return this;
+    }
+    public Pepsi m4() {
+        System.out.println("m4() method");
+        return this;
+    }
+     public static void main(String[] args) {
+         // method chaining--> this keywords
+        Pepsi pepsi1 = new Pepsi();
+        pepsi1.m1().m2().m3().m4().display();
+     }
+}
+```
+# Output
+![image](https://github.com/user-attachments/assets/99916214-7884-4354-8690-116253b35baf)
