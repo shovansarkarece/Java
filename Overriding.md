@@ -95,6 +95,8 @@ public class Overriding{
     }
 }
 ```
+![image](https://github.com/user-attachments/assets/4c9c7b60-564c-4dae-8f99-380403a3c981)
+
 ![image](https://github.com/user-attachments/assets/a3ae7680-35c6-4f16-9bd5-c57d65a9aae5)
 # Example-3(While overriding the method resolution for JVM is based on the creation of the runtime object)
 ```
