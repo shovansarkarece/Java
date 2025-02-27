@@ -14,3 +14,18 @@ public class finaal{
 }
 ```
 ![image](https://github.com/user-attachments/assets/32d7f083-f529-47b1-a1ec-a6dc418e2f8e)
+## ## Example-2(Here we initialize the final keyword's value.) 
+```
+public class finaal1{
+    //****************Instance Variable**********************/
+    int salary1;
+    ////*****************Final Instance Variable**********************/
+    final int salary=10000;
+    public static void main(String[] args){
+        finaal1 a = new finaal1();
+        System.out.println("Final Keyword's value is"+":"+a.salary);
+    }
+}
+```
+![image](https://github.com/user-attachments/assets/c66707da-c794-437e-94b0-536c02c28e6f)
+
