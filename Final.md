@@ -33,6 +33,10 @@ public class finaal1{
 # Three Ways to use final keyword in terms of declaring variable.
 ![image](https://github.com/user-attachments/assets/c99e40af-d3b7-455a-8d27-2929b701b245)
 # Final Static Variable
+- **1. For final static variable JVM won't provide any default values hence we have to initialize before using that.**
+- **2. Static block load inside the memory at the time of class loading.**
+- **3. Static variable load inside the memory at the time of class loading.**
+
 ![image](https://github.com/user-attachments/assets/52ecef6a-5aa4-4eda-86bd-d2711aad4f5e)
 # Example
 ![image](https://github.com/user-attachments/assets/7f6c3687-65bd-40ed-b605-0e9bed1ae553)
