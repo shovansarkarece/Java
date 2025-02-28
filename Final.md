@@ -47,3 +47,5 @@ public class finaal1{
 # Final Class
 ![image](https://github.com/user-attachments/assets/7e5e68a9-e251-47f6-8eb8-fec2e8cb02ad)
 - **disadvantages:We are loosing oops feature which is reusability/inheritance.**
+ 
+![WhatsApp Image 2025-02-28 at 13 49 23_1ccbc107](https://github.com/user-attachments/assets/6dca065b-e0ea-4012-8226-9807a25e606a)
