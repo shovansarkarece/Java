@@ -42,3 +42,5 @@ public class finaal1{
 ![image](https://github.com/user-attachments/assets/7f6c3687-65bd-40ed-b605-0e9bed1ae553)
 # Final Local Variable
 ![image](https://github.com/user-attachments/assets/de000d9f-ad87-431f-b034-946b366778a2)
+# Example
+![image](https://github.com/user-attachments/assets/d413f6b0-561c-40ef-a4b9-60a7f5fdd492)
