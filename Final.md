@@ -30,5 +30,6 @@ public class finaal1{
 ![image](https://github.com/user-attachments/assets/c66707da-c794-437e-94b0-536c02c28e6f)
 ## Example-3(Reinitialize the value impossible for final keyword)
 ![image](https://github.com/user-attachments/assets/099ab247-90ff-4374-adb9-181c37d98b5a)
-
+# Three Ways to use final keyword in terms of declaring variable.
+![image](https://github.com/user-attachments/assets/c99e40af-d3b7-455a-8d27-2929b701b245)
 
