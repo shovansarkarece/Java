@@ -48,7 +48,8 @@ public class finaal1{
 ![image](https://github.com/user-attachments/assets/7e5e68a9-e251-47f6-8eb8-fec2e8cb02ad)
 # Example-1 of Final Class
 ![WhatsApp Image 2025-02-28 at 13 49 23_1ccbc107](https://github.com/user-attachments/assets/6dca065b-e0ea-4012-8226-9807a25e606a)
-- **disadvantages:We are loosing oops feature which is reusability/inheritance.**
+# Disadvantage:
+- **We are losing oops feature which is reusability/inheritance.**
 # Example-2 of Final Class
 ![WhatsApp Image 2025-02-28 at 13 53 33_0d853446](https://github.com/user-attachments/assets/4eafb2f7-26db-4297-9974-9698aa2eefa5)
 ![image](https://github.com/user-attachments/assets/052641cf-8675-4ac0-af2a-0e33aedc26bb)
