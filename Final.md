@@ -36,7 +36,7 @@ public class finaal1{
 - **For final static variable JVM won't provide any default values hence we have to initialize before using that.**
 - **Static block load inside the memory at the time of class loading.**
 - **Static variable load inside the memory at the time of class loading.**
-
+![image](https://github.com/user-attachments/assets/052641cf-8675-4ac0-af2a-0e33aedc26bb)
 ![image](https://github.com/user-attachments/assets/52ecef6a-5aa4-4eda-86bd-d2711aad4f5e)
 # Example
 ![image](https://github.com/user-attachments/assets/7f6c3687-65bd-40ed-b605-0e9bed1ae553)
