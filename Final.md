@@ -29,7 +29,8 @@ public class finaal1{
     }
 }
 ```
-![image](https://github.com/user-attachments/assets/c66707da-c794-437e-94b0-536c02c28e6f)
+![image](https://github.com/user-attachments/assets/e5d0d53c-7c21-44de-92b0-89e8d4d9d0a3)
+
 ## Example-3(Reinitialize the value impossible for final keyword)
 ![image](https://github.com/user-attachments/assets/099ab247-90ff-4374-adb9-181c37d98b5a)
 # Three Ways to use final keyword in terms of declaring variable.
