@@ -152,3 +152,5 @@ Hostel Restaurant
 ![image](https://github.com/user-attachments/assets/1826c1fc-54ef-49f6-b0e3-dc7bae18afaf)
 
 ![image](https://github.com/user-attachments/assets/a97ffdde-f677-4c2e-89d5-40d1360528fd)
+# Example - At a time a class can be either final or abstract
+![image](https://github.com/user-attachments/assets/e564648a-e10b-4f42-9500-59135b6dea5c)
