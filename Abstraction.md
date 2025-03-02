@@ -151,3 +151,4 @@ Hostel Restaurant
 ![image](https://github.com/user-attachments/assets/4d4813f6-f80c-4168-9ddc-8349fb0cf154)
 ![image](https://github.com/user-attachments/assets/1826c1fc-54ef-49f6-b0e3-dc7bae18afaf)
 
+![image](https://github.com/user-attachments/assets/a97ffdde-f677-4c2e-89d5-40d1360528fd)
