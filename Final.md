@@ -59,7 +59,9 @@ public class finaal1{
 ![WhatsApp Image 2025-02-28 at 13 53 33_0d853446](https://github.com/user-attachments/assets/4eafb2f7-26db-4297-9974-9698aa2eefa5)
 # Example-3 of Final Class cannot be inherited
 ![WhatsApp Image 2025-03-02 at 01 00 55_af7a9f68](https://github.com/user-attachments/assets/48cd49bd-f9a1-4b9b-856a-c5037e4a5ee5)
-# Example-3 of Final Class
+# Example-4 of Final Class cannot be overrided
 ![image](https://github.com/user-attachments/assets/abde39aa-6823-42dc-9a63-4389d48eb7f1)
-# Example-4-->Final Class cannot be inherited
+# Example-5 of Final Class cannot be overrided
+![image](https://github.com/user-attachments/assets/73333289-a829-4a0c-aa81-3c7ae2f8b464)
+# Example-6-->Final Class cannot be inherited
 ![image](https://github.com/user-attachments/assets/ca560bb6-9cfc-480c-8f4d-f9d7bdfd9503)
