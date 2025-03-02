@@ -4,6 +4,7 @@
 # Non Abstract class can create object like below
 ![image](https://github.com/user-attachments/assets/c2edb15d-fbd9-4408-aad8-8aaaf1c735a8)
 ![image](https://github.com/user-attachments/assets/2ba1625a-886a-4a69-afe1-19823842b6d2)
+# Exmaple-1
 ```
 abstract class CarFactory{
     /////Necessary Property
@@ -92,4 +93,58 @@ No Airbags
 4 Tyre
 1 Enginee
 8 Airbags
+```
+# Exmaple-2
+```
+abstract class Parent{
+    void gold(){
+        System.out.println("1 Kg Gold");
+    }
+    abstract void land();
+}
+class Child1 extends Parent{
+    //////gold land
+    void land(){
+        System.out.println("Open Restaurant");
+    }
+}
+class Child2 extends Parent{
+    //////gold land
+    void land(){
+        System.out.println("Gym Restaurant");
+    }
+}
+class Child3 extends Parent{
+    //////gold land
+    void land(){
+        System.out.println("Hostel Restaurant");
+    }
+}
+public class Abstract2{
+    public static void main(String[] args) {
+        Child1 c1 = new Child1();
+        c1.gold();
+        c1.land();
+        System.out.println();
+        Child2 c2 = new Child2();
+        c2.gold();
+        c2.land();
+        System.out.println();
+        Child3 c3 = new Child3();
+        c3.gold();
+        c3.land();
+        System.out.println();
+    }
+}
+```
+# Output:
+```
+1 Kg Gold
+Open Restaurant
+
+1 Kg Gold
+Gym Restaurant
+
+1 Kg Gold
+Hostel Restaurant
 ```
