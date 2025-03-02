@@ -55,8 +55,10 @@ public class finaal1{
 ![WhatsApp Image 2025-02-28 at 13 49 23_1ccbc107](https://github.com/user-attachments/assets/6dca065b-e0ea-4012-8226-9807a25e606a)
 # Disadvantage:
 - **We are losing oops feature which is reusability/inheritance.**
-# Example-2 of Final Class
+# Example-2 of Final Class cannot be inherited
 ![WhatsApp Image 2025-02-28 at 13 53 33_0d853446](https://github.com/user-attachments/assets/4eafb2f7-26db-4297-9974-9698aa2eefa5)
+# Example-3 of Final Class cannot be inherited
+![WhatsApp Image 2025-03-02 at 01 00 55_af7a9f68](https://github.com/user-attachments/assets/48cd49bd-f9a1-4b9b-856a-c5037e4a5ee5)
 # Example-3 of Final Class
 ![image](https://github.com/user-attachments/assets/abde39aa-6823-42dc-9a63-4389d48eb7f1)
 # Example-4-->Final Class cannot be inherited
