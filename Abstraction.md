@@ -149,4 +149,5 @@ Gym Restaurant
 Hostel Restaurant
 ```
 ![image](https://github.com/user-attachments/assets/4d4813f6-f80c-4168-9ddc-8349fb0cf154)
-![image](https://github.com/user-attachments/assets/176fc383-0ea3-44aa-ba3e-d84bf541109e)
+![image](https://github.com/user-attachments/assets/1826c1fc-54ef-49f6-b0e3-dc7bae18afaf)
+
