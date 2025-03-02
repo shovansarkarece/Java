@@ -62,6 +62,6 @@ public class finaal1{
 # Example-4 of Final Class cannot be overrided
 ![image](https://github.com/user-attachments/assets/abde39aa-6823-42dc-9a63-4389d48eb7f1)
 # Example-5 of Final Class cannot be overrided
-![image](https://github.com/user-attachments/assets/73333289-a829-4a0c-aa81-3c7ae2f8b464)
+![image](https://github.com/user-attachments/assets/9989690f-ff06-4637-8415-aa32116ebf0c)
 # Example-6-->Final Class cannot be inherited
 ![image](https://github.com/user-attachments/assets/ca560bb6-9cfc-480c-8f4d-f9d7bdfd9503)
