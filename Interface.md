@@ -50,3 +50,11 @@ public class Interface{
     }
 }
 ```
+# Output:
+```
+10000:Reserve Bank
+User want to withdraw 1000 Euro:User balance is 40000 Euro
+
+10000:Reserve Bank
+User want to withdraw 5000 Euro:User balance is 100000 Euro
+```
