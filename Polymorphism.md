@@ -40,7 +40,7 @@ public class Test2{
  }
 }
 ```
-#### [TO get more clarity regarding overloading we have to look here](https://github.com/shovansarkarece/Java/blob/main/Overloading.md)
+#### [TO get more clarity regarding overiding we have to look here](https://github.com/shovansarkarece/Java/blob/main/Overriding.md)
 ![image](https://github.com/user-attachments/assets/6e1010e1-c8d2-445f-8ccc-db5f223c210b)
 ```
 public class OverloadingDemo {
@@ -52,4 +52,5 @@ public class OverloadingDemo {
  {
  return a+b+c;
 ```
-#### [TO get more clarity regarding overiding we have to look here](https://github.com/shovansarkarece/Java/blob/main/Overriding.md)
+#### [TO get more clarity regarding overloading we have to look here](https://github.com/shovansarkarece/Java/blob/main/Overloading.md)
+
