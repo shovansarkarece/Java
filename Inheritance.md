@@ -107,6 +107,7 @@ Parent homename is:Home Sweet Homeand property name is:100000.0
 # Multi-Level Inheritance
 ![image](https://github.com/user-attachments/assets/17441017-c817-40fd-bc33-67b54c4900c1)
 > Parent reference is capable to hold  child’s object  but child’s reference  is incapable to hold  Parent’s object
+> Child can not store parent object.
 ```
 class GrandParent{
     int gold = 100;
