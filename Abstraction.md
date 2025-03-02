@@ -154,3 +154,5 @@ Hostel Restaurant
 ![image](https://github.com/user-attachments/assets/a97ffdde-f677-4c2e-89d5-40d1360528fd)
 # Example - At a time a class can be either final or abstract
 ![image](https://github.com/user-attachments/assets/e564648a-e10b-4f42-9500-59135b6dea5c)
+# Example -Inside abstract class we can not keep final method
+![image](https://github.com/user-attachments/assets/e73b59b6-3dcd-4672-8f26-d99e1db5073c)
