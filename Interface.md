@@ -59,6 +59,8 @@ User want to withdraw 1000 Euro:User balance is 40000 Euro
 User want to withdraw 5000 Euro:User balance is 100000 Euro
 ```
 ![image](https://github.com/user-attachments/assets/f6e30bc9-b3b2-46c4-a562-16e9e76fe452)
+![image](https://github.com/user-attachments/assets/8cc6ce87-9baa-4e38-8da4-422f59b4e845)
+![image](https://github.com/user-attachments/assets/e54a7119-6d9b-444e-9cec-d9fe8d0db775)
 ![image](https://github.com/user-attachments/assets/dd4cc05f-db9a-4a45-895e-0dd5c96649b8)
 ![image](https://github.com/user-attachments/assets/4109e5c2-b8d8-4cba-821e-5b7600befc93)
 ![image](https://github.com/user-attachments/assets/37426a54-dfee-4cbd-b8f2-864cac179236)
