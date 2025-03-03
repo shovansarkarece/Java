@@ -68,6 +68,8 @@ User want to withdraw 5000 Euro:User balance is 100000 Euro
 
 ![image](https://github.com/user-attachments/assets/ebcd77b6-f893-44bf-87e8-3fe5c5aa8cf3)
 
+![image](https://github.com/user-attachments/assets/a38e5190-883a-4567-b5d2-3a57d1d52fde)
+![image](https://github.com/user-attachments/assets/eb378d68-9d19-4122-8a8c-f9a563be82e3)
 
 
 
