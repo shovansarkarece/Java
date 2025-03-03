@@ -58,4 +58,11 @@ User want to withdraw 1000 Euro:User balance is 40000 Euro
 10000:Reserve Bank
 User want to withdraw 5000 Euro:User balance is 100000 Euro
 ```
-![image](https://github.com/user-attachments/assets/55228a3b-1531-489c-8064-8bf14965e616)
+![image](https://github.com/user-attachments/assets/f6e30bc9-b3b2-46c4-a562-16e9e76fe452)
+![image](https://github.com/user-attachments/assets/dd4cc05f-db9a-4a45-895e-0dd5c96649b8)
+![image](https://github.com/user-attachments/assets/4109e5c2-b8d8-4cba-821e-5b7600befc93)
+![image](https://github.com/user-attachments/assets/37426a54-dfee-4cbd-b8f2-864cac179236)
+![image](https://github.com/user-attachments/assets/d89220f5-cc0b-4dd2-b7e6-dc5918478f37)
+
+
+
