@@ -117,41 +117,59 @@ Name is Harish
 Name is Karan
 Name is Monty
 ```
-# Example-3
-```
-class Demo2D
-{
-	public static void main(String[] args) 
-	{
-		// 2d array : 
-		// 1. hame values pata hai(When we know the values)
-		int arr[][]= { 
-			{ 4,9,10,30 },
-			{ 6,8,5,30 },
-			{ 2,3,1,30},
-			{ 11,8,2,30} 
-		};
-// 2D array print karne ka tareeka
-		
-		for(int i=0;i<=arr.length-1;i++)
-		{
-			for(int j=0;j<=arr[0].length-1;j++)
-			{
-				System.out.print(arr[i][j]+"\t");
-			}
-			System.out.println();
-		}}}
-```
-# Output
-```
-Output:
-4   9   10  30 
-6   8   5   30 
-2   3   1   30 
-11  8   2   30
-```
 ![image](https://github.com/user-attachments/assets/9495e597-e863-4f12-a4ac-c28a34d7fbaf)
 
 # Two Dimensional Array
 ![image](https://github.com/user-attachments/assets/be90d861-f244-4040-b09c-cfd0103d023e)
 ![image](https://github.com/user-attachments/assets/5311f2be-0bbc-4ecb-90a2-26ba34609933)
+# ForEach Loop
+```
+import java.util.ArrayList;
+class ForEach
+{
+	public static void main(String[] args) {
+		
+		int arr[]={123,124,1242,35,346};
+
+		// accessing using for each loop
+		for(int x:arr)
+		{
+			System.out.println("value of x = "+x);
+		}
+		String names[]={"ankit","sachin","surya","rahul"};
+
+		for(String name:names)
+		{
+			System.out.println(name);
+		}
+
+		// 
+		ArrayList<Integer> list=new ArrayList();
+		list.add(124);
+		list.add(2345);
+
+		for(int y:list)
+		{
+			System.out.println(y);
+		}
+
+
+	}
+}
+```
+# Output:
+```
+Note: ForEach.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+value of x = 123
+value of x = 124
+value of x = 1242
+value of x = 35
+value of x = 346
+ankit
+sachin
+surya
+rahul
+124
+2345
+```
